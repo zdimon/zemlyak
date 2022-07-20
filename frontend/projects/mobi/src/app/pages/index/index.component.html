@@ -1,0 +1,21 @@
+<ion-content [fullscreen]="true">
+    <div id="container">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>User list</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-item  *ngFor="let user of (users | async)">
+            <ion-label><core-avatar [user]="user"></core-avatar></ion-label>
+            <ion-label>{{ user.username }}</ion-label>
+            <ion-text slot="end">
+              <ion-button color="primary" (click)="doCallToChat(user.id)">Chat</ion-button>
+            </ion-text>
+            
+  
+          </ion-item>          
+        </ion-card-content>
+      </ion-card>
+      </div>
+</ion-content>

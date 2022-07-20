@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-buttons  slot="start">
+        <ion-menu-button>
+          <img src='static/front_dist/mobi/svg/menu-sharp.svg'>
+        </ion-menu-button>
+      </ion-buttons>
+      <ion-title>{{ token }}</ion-title>
+      <ion-buttons  slot="end">
+        <ion-button routerLink="/index" color="primary">Back</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content [fullscreen]="true">
+   
+    
+    <div id="container">
+      
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Chat</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-list>
+            <ion-item *ngFor="let message of (messages | async)">
+              <ion-label>{{ message.message }}</ion-label>
+              <ion-text slot="end">{{ message.owner.username }}</ion-text>
+            </ion-item>
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-item lines="none">
+        <ion-textarea [(ngModel)]="message" name="message" clearOnEdit="true" ></ion-textarea>
+        <ion-button (click)="doSubmit()" color="primary" expand="full" size="large">Send</ion-button>
+      </ion-item>
+
+  
+     
+    </div>
+  </ion-content>
+  

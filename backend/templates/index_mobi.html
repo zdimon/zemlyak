@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web</title>
+  <base href="/mobi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% for s in links %}
+      {{ s | safe }}
+  {% endfor %}
+
+
+</head>
+<body>
+  <app-root></app-root>
+
+  {% for s in scripts %}
+      {{ s | safe }}
+  {% endfor %}
+
+</body>
+</html>
