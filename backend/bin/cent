@@ -1,2 +1,2 @@
-cd centrifugo
+cd ../centrifugo
 ./centrifugo --config=config.json -p 9999 --log_level=debug --admin --redis_db=1 --engine=redis
