@@ -36,7 +36,7 @@ from schema_graph.views import Schema
 
 urlpatterns = [
     path('web/', include('web.urls')),
-    path('home/', homepage),
+    path('', homepage),
     path('mobi/', index_mobi),
     path('mobi/folder/Inbox', index_mobi),
     path('mobi/<slug:slug>', index_mobi),
@@ -57,7 +57,7 @@ urlpatterns = [
         path('quiz/',include('quiz.urls'))
     ])),
     path('swagger/<str:format>', schema_view.without_ui(cache_timeout=0), name='schema-json'),
-    path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('swagger', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('doc', schema_view.with_ui('redoc', cache_timeout=0), name='schema-doc'),
     path('admin/', admin.site.urls),
     path('doc/',include('doc.urls')),

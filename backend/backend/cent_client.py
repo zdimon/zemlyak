@@ -10,7 +10,8 @@ class CentClient(object):
     def send(self,token,message):
         try:
             self.con.publish(token, message)
-        except:
+        except Exception as e:
+            print(e)
             print('Centrifugo does not work!')
         #print(" HISTORY OF MESSAGES : ", self.con.history(token))
 
