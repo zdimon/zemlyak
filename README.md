@@ -58,7 +58,7 @@ WebRTC - for the broadcasting
 
 Cloning.
 
-    git clone git@github.com:zdimon/just-dating.git
+    git clone git@github.com:zdimon/zemlyak.git
     cd just-dating
 
 Create virtual environment.
