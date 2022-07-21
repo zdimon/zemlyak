@@ -26,7 +26,7 @@ schema_view = get_schema_view(
 )
 
 from web.views import index_web, index_mobi
-from web.index.views import homepage
+from web.views import homepage
 
 from rest_framework.routers import DefaultRouter
 from quiz.views.theme import ThemeListViewSet
@@ -68,6 +68,7 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path('', homepage),
+    path('',include('web.urls')),
     path('filter/<slug:country>/<slug:city>', homepage, name="filter-country-city"),
     path('filter/<slug:country>', homepage, name="filter-country"),
 )
