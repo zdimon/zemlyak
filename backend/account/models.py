@@ -57,6 +57,9 @@ class UserProfile(User):
     target_country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_country")
     target_city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_city")
 
+    def __str__(self) -> str:
+        return self.publicname
+
     def get_opposite_gender(self):
         if self.gender == 'male':
             return 'female'
@@ -112,14 +115,19 @@ class UserProfile(User):
                     'message': UserProfileSerializer(payload_user).data \
                 })
 
+
     @property
-    def get_main_photo(self):
+    def get_main_photo_url(self):
         from usermedia.models import UserMedia
         try:
             media = UserMedia.objects.get(user=self, is_main=True, type_media='photo')
-            return mark_safe('<img src="%s" />' % media.get_small_image_url)
+            return media.get_small_image_url
 
         except Exception as i:
-            return str(i)    
+            return '/static/img/undraw_profile.svg' 
+
+    @property
+    def get_main_photo(self):
+        return mark_safe('<img src="%s" />' % self.get_main_photo_url)  
 
 

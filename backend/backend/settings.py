@@ -188,7 +188,7 @@ CHANNEL_LAYERS = {
 }
 
 from .local import *
-
+LOGOUT_REDIRECT_URL = '/'
 
 
 STATICFILES_DIRS = [

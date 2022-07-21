@@ -98,3 +98,12 @@ h3 {
 .img-lang {
     width: 50px;
 }
+
+.top-link {
+    color: #2E59D9 !important;
+    font-weight: bold;
+}
+
+.top-title {
+    font-size: 24px  !important;
+}

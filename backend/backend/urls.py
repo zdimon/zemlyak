@@ -5,6 +5,7 @@ from django.urls import path, include
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+from django.contrib.auth.views import LogoutView
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -42,7 +43,7 @@ urlpatterns = [
     path('mobi/<slug:slug>', index_mobi),
     path('mobi/chat/<slug:slug>', index_mobi),
     path('rosetta', include('rosetta.urls')),
-    
+    path('logout/$', LogoutView.as_view(), name='logout'),
 
     path('v1/',include([
         path('account/',include('account.urls')),
