@@ -12,8 +12,27 @@ from asgiref.sync import async_to_sync
 from channels.layers import get_channel_layer
 
 
+class Country(models.Model):
+    name = models.CharField(default='', max_length=250)
+    alias = models.CharField(max_length=250)
+    def __str__(self) -> str:
+        return self.name
 
+class City(models.Model):
+    name = models.CharField(default='', max_length=250)
+    alias = models.CharField(max_length=250)
+    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
+    is_occupated = models.BooleanField(default=False)
 
+    def __str__(self) -> str:
+        return self.name
+
+class CityGroup(models.Model):
+    target = models.ForeignKey(City, on_delete=models.CASCADE, related_name="target")
+    source = models.ForeignKey(City, on_delete=models.CASCADE, related_name="source")
+
+    def __str__(self) -> str:
+        return '%s -> %s' % (self.source, self.target)
 class UserProfile(User):
     GENDER = (
         ('male', _('Man')),
@@ -28,9 +47,13 @@ class UserProfile(User):
         max_length=6)
 
     publicname = models.CharField(default='', max_length=250)
+    surename = models.CharField(default='', max_length=250)
+    telegram = models.CharField(default='', max_length=250)
     is_online = models.BooleanField(default=False)
     account = models.DecimalField(max_digits=20, decimal_places=2, default=Decimal(0.00))
     birthday = models.DateField(null=True, blank=True)
+    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
+    city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True)
 
     def get_opposite_gender(self):
         if self.gender == 'male':
@@ -98,11 +121,3 @@ class UserProfile(User):
             return str(i)    
 
 
-class Country(models.Model):
-    name = models.CharField(default='', max_length=250)
-    alias = models.CharField(max_length=250)
-
-class City(models.Model):
-    name = models.CharField(default='', max_length=250)
-    alias = models.CharField(max_length=250)
-    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)

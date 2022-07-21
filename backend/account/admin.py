@@ -1,5 +1,5 @@
 from django.contrib import admin
-from account.models import UserProfile, City, Country
+from account.models import UserProfile, City, Country, CityGroup
 from django.utils.html import mark_safe
 from modeltranslation.admin import TranslationAdmin
 
@@ -12,6 +12,8 @@ class UserProfileAdmin(admin.ModelAdmin):
         'username', 
         'gender', 
         'is_online', 
+        'city',
+        'country',
         'birthday']
 
 @admin.register(Country)
@@ -20,4 +22,15 @@ class CountryAdmin(TranslationAdmin):
 
 @admin.register(City)
 class CityAdmin(TranslationAdmin):
-    pass
+    list_display = [
+        'name',
+        'country',
+        'is_occupated'
+    ]
+
+@admin.register(CityGroup)
+class CityGroupAdmin(admin.ModelAdmin):
+    list_display = [
+        'source',
+        'target'
+    ]

@@ -2,7 +2,16 @@
     "administratiors": [
         {
            "username": "admin",
-           "password": "admin"
+           "password": "admin",
+            "gender": "male",
+            "publicname": "man1",
+            "is_online": "false",
+            "account": "0",
+            "birthday": "1977-01-01",
+            "city": "kherson",
+            "images": [
+                {"image":"man1.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
+            ]
         }
     ],
     "male": [
@@ -14,6 +23,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man1.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -26,6 +36,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man2.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -38,6 +49,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man3.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -50,6 +62,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man4.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -62,6 +75,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man5.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -74,6 +88,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man6.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -86,6 +101,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "mariupol",
             "images": [
                 {"image":"man7.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -98,6 +114,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "mariupol",
             "images": [
                 {"image":"man8.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -110,6 +127,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"man9.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -122,6 +140,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "mariupol",
             "images": [
                 {"image":"man10.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -136,6 +155,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "kherson",
             "images": [
                 {"image":"woman1.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -148,6 +168,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "mariupol",
             "images": [
                 {"image":"woman2.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -160,6 +181,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman3.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -172,6 +194,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman4.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -184,6 +207,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman5.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -196,6 +220,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman6.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -208,6 +233,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman7.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -220,6 +246,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman8.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -232,6 +259,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman9.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -244,6 +272,7 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
+            "city": "odessa",
             "images": [
                 {"image":"woman10.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]

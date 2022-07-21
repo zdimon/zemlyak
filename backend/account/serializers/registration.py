@@ -1,12 +1,13 @@
 # author: Dmitry Zharikov zdimon77@gmail.com
 from rest_framework import serializers
-from account.models import UserProfile
+from account.models import UserProfile, City
 
 class RegistrationRequestSerializer(serializers.Serializer):
     username = serializers.CharField()
     password = serializers.CharField()
     birthday = serializers.CharField() # if use DataField we can not define the validator
     gender = serializers.ChoiceField(choices=['male','female'])
+    city = serializers.CharField()
 
     def validate_username(self, value):
         """
@@ -31,11 +32,14 @@ class RegistrationRequestSerializer(serializers.Serializer):
 
 
     def save(self):
+        city = City.objects.get(alias=self.validated_data['city'])
         profile = UserProfile()
         profile.username = self.validated_data['username']
         profile.set_password(self.validated_data['password'])
         profile.birthday = self.validated_data['birthday']
         profile.gender = self.validated_data['gender']
+        profile.city = city
+        profile.country = city.country
         profile.save()
         return profile
 

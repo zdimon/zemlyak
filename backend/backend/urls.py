@@ -67,7 +67,9 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
-    path('', homepage)
+    path('', homepage),
+    path('filter/<slug:country>/<slug:city>', homepage, name="filter-country-city"),
+    path('filter/<slug:country>', homepage, name="filter-country"),
 )
 
 

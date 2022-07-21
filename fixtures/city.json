@@ -1,0 +1,61 @@
+[
+    {
+        "name_ru": "Украина",
+        "name_en": "Ukraine",
+        "name_uk": "Україна",
+        "alias": "ukraine",
+        "city": [
+            {
+                "name_ru": "Херсон",
+                "name_en": "Kherson",
+                "name_uk": "Херсон",
+                "alias": "kherson",
+                "is_occupated": true
+            },
+            {
+                "name_ru": "Одесса",
+                "name_en": "Odessa",
+                "name_uk": "Одеса",
+                "alias": "odessa",
+                "is_occupated": false
+            },
+            {
+                "name_ru": "Киев",
+                "name_en": "Kyiev",
+                "name_uk": "Київ",
+                "alias": "kyiev",
+                "is_occupated": false
+            },
+            {
+                "name_ru": "Мариуполь",
+                "name_en": "Mariupol",
+                "name_uk": "Маріуполь",
+                "alias": "mariupol",
+                "is_occupated": true
+            }
+        ]
+    },
+    {
+        "name_ru": "Германия",
+        "name_en": "Germany",
+        "name_uk": "Німеччина",
+        "alias": "germany",
+        "city": [
+            {
+                "name_ru": "Мюнхен",
+                "name_en": "Munhen",
+                "name_uk": "Мюнхен",
+                "alias": "munhen",
+                "is_occupated": false
+
+            },
+            {
+                "name_ru": "Берлин",
+                "name_en": "Berlin",
+                "name_uk": "Берлин",
+                "alias": "berlin",
+                "is_occupated": false
+            }
+        ]
+    }
+]
