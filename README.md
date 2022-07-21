@@ -74,9 +74,13 @@ Load data
 
     ./bin/seeddb
 
-Run server 
+Run Django server 
 
     ./bin/run
+
+Run Celery server 
+
+    ./bin/celery
 
 ## NodeJS
 
