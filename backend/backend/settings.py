@@ -96,6 +96,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'
+CSRF_TRUSTED_ORIGINS = ['https://*.zemlyak.com.ua','https://*.127.0.0.1','http://localhost']
+
 
 
 # Database
