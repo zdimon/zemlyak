@@ -78,6 +78,11 @@ Run server
 
     ./bin/run
 
+## NodeJS
+
+    nvm install 14
+    nvm use 14
+
 ## Frontend builder
 
     ./bin/build_mobi
