@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from decimal import Decimal
 from django.contrib.auth.models import User
 from django.utils.safestring import mark_safe
@@ -96,3 +96,13 @@ class UserProfile(User):
 
         except Exception as i:
             return str(i)    
+
+
+class Country(models.Model):
+    name = models.CharField(default='', max_length=250)
+    alias = models.CharField(max_length=250)
+
+class City(models.Model):
+    name = models.CharField(default='', max_length=250)
+    alias = models.CharField(max_length=250)
+    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)

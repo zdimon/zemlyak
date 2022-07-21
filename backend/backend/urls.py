@@ -33,15 +33,15 @@ from quiz.views.theme import ThemeListViewSet
 router = DefaultRouter()
 router.register(r'theme', ThemeListViewSet, basename='theme')
 from schema_graph.views import Schema
+from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path('web/', include('web.urls')),
-    path('', homepage),
     path('mobi/', index_mobi),
     path('mobi/folder/Inbox', index_mobi),
     path('mobi/<slug:slug>', index_mobi),
     path('mobi/chat/<slug:slug>', index_mobi),
-
+    path('rosetta', include('rosetta.urls')),
     
 
     path('v1/',include([
@@ -65,6 +65,10 @@ urlpatterns = [
 
 
 ]
+
+urlpatterns += i18n_patterns(
+    path('', homepage)
+)
 
 
 from django.conf import settings

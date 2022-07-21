@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 06:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: account/models.py:19
+msgid "Man"
+msgstr ""
+
+#: account/models.py:20
+msgid "Woman"
+msgstr ""
+
+#: account/models.py:24
+msgid "Gender"
+msgstr ""
+
+#: quiz/models.py:19
+msgid "Alias"
+msgstr ""
+
+#: quiz/models.py:20
+msgid "Name"
+msgstr ""
+
+#: quiz/models.py:33
+msgid "Elementary"
+msgstr ""
+
+#: quiz/models.py:34
+msgid "Easy"
+msgstr ""
+
+#: quiz/models.py:35
+msgid "Middle"
+msgstr ""
+
+#: quiz/models.py:36
+msgid "Hard"
+msgstr ""
+
+#: quiz/models.py:37
+msgid "Very hard"
+msgstr ""
+
+#: quiz/models.py:40
+msgid "Russian"
+msgstr ""
+
+#: quiz/models.py:41
+msgid "English"
+msgstr ""
+
+#: quiz/models.py:42
+msgid "Russian and English"
+msgstr ""
+
+#: quiz/models.py:46
+msgid "Full match"
+msgstr ""
+
+#: quiz/models.py:47
+msgid "Substring match"
+msgstr ""
+
+#: quiz/models.py:51
+msgid "Language"
+msgstr ""
+
+#: quiz/models.py:52
+msgid "Level"
+msgstr ""
+
+#: quiz/models.py:53
+msgid "Mode of quize"
+msgstr ""
+
+#: quiz/models.py:54
+msgid "Type of matching"
+msgstr ""
+
+#: quiz/models.py:56 quiz/models.py:119
+msgid "Question"
+msgstr ""
+
+#: quiz/models.py:57
+msgid "Answers"
+msgstr ""
+
+#: quiz/models.py:57
+msgid "Divided by coma"
+msgstr ""
+
+#: quiz/models.py:59
+msgid "Order"
+msgstr ""
+
+#: quiz/models.py:85
+msgid "Till questions are fineshed."
+msgstr ""
+
+#: quiz/models.py:86
+msgid "Infinite quize (looping over questions)."
+msgstr ""
+
+#: quiz/models.py:87
+msgid "Custom. Defining question by author."
+msgstr ""
+
+#: quiz/models.py:100
+msgid "Quiz type"
+msgstr ""
+
+#: quiz/models.py:101
+msgid "Created at"
+msgstr ""
+
+#: quiz/models.py:102
+msgid "Cur question"
+msgstr ""
+
+#: quiz/models.py:104
+msgid "Token"
+msgstr ""
+
+#: quiz/models.py:121 quiz/models.py:130
+msgid "Room"
+msgstr ""
+
+#: quiz/models.py:131
+msgid "Text"
+msgstr ""
+
+#: quiz/models.py:132
+msgid "User"
+msgstr ""
+
+#: quiz/models.py:167
+msgid "URL Smile"
+msgstr ""
+
+#: quiz/models.py:170
+msgid "URL Sticker"
+msgstr ""
+
+#: quiz/models.py:173
+msgid "smile"
+msgstr ""
+
+#: quiz/models.py:174 quiz/models.py:178
+msgid "message"
+msgstr ""
+
+#: quiz/models.py:177
+msgid "sticker"
+msgstr ""
+
+#: templates/main/header.html:11
+msgid "найди земляков"
+msgstr ""
+
+#: templates/main/header.html:15
+msgid "Вход"
+msgstr ""
+
+#: templates/main/header.html:18
+msgid "Регистрация"
+msgstr ""
+
+#: templates/main/header.html:124 templates/main/header.html:134
+msgid "Английский"
+msgstr ""
+
+#: templates/main/header.html:128 templates/main/header.html:144
+msgid "Украинский"
+msgstr ""
+
+#: templates/main/header.html:138 templates/main/header.html:148
+msgid "Русский"
+msgstr ""
+
+#: templates/main/index.html:8
+msgid "О проекте"
+msgstr ""
+
+#: templates/main/index.html:19
+msgid "Поиск"
+msgstr ""
+
+#: templates/main/index.html:26
+msgid "Город"
+msgstr ""
+
+#: templates/main/index.html:31
+msgid "Группы земляков"
+msgstr ""
+
+#: templates/main/layout.html:13
+msgid "Земляк. Поиск земляков."
+msgstr ""
+
+#: templates/main/layout.html:70
+msgid "ПУБЛИЧНАЯ ОФЕРТА"
+msgstr ""
+
+#: templates/main/layout.html:71
+msgid "ДОГОВОР О ДОСТАВКЕ"
+msgstr ""
+
+#: templates/main/layout.html:72
+msgid "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
+msgstr ""
+
+#: templates/main/layout.html:73
+msgid "ОБ АВТОРЕ"
+msgstr ""
+
+#: usermedia/models.py:14
+msgid "Photo"
+msgstr ""
+
+#: usermedia/models.py:15
+msgid "Video"
+msgstr ""
+
+#: usermedia/models.py:19
+msgid "Landscape"
+msgstr ""
+
+#: usermedia/models.py:20
+msgid "Portrait"
+msgstr ""
+
+#: usermedia/models.py:24
+msgid "Public"
+msgstr ""
+
+#: usermedia/models.py:25
+msgid "Private"
+msgstr ""
+
+#: usermedia/models.py:29
+msgid "Type of media"
+msgstr ""
+
+#: usermedia/models.py:35
+msgid "Role of media"
+msgstr ""
+
+#: usermedia/models.py:41
+msgid "Orientation"
+msgstr ""

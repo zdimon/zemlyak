@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,10 +58,15 @@ INSTALLED_APPS = [
     'sympathy',
     'django_extensions',
     'doc',
-    'schema_graph'
+    'schema_graph',
+    'rosetta'
 ]
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
+
 MIDDLEWARE = [
+    'backend.lang_middleware.ForceDefaultLanguageMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -68,6 +74,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -124,11 +131,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'uk'
 LANGUAGES = [
     ('en','English'),
     ('ru', 'Russian'),
-    ('ua', 'Ukranian')
+    ('uk', 'Ukranian')
 ]
 TIME_ZONE = 'UTC'
 
