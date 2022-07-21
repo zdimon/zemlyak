@@ -21,7 +21,7 @@ def homepage(request,country='ukraine',city=None):
     citygroups = []
     if current_city and current_country:
         users = UserProfile.objects.filter(target_city=current_city)
-        citygroups = CityGroup.objects.filter(source=current_city)
+        citygroups = CityGroup.objects.filter(target=current_city)
     else:
         users = UserProfile.objects.filter(target_country=current_country)
 
