@@ -5,6 +5,17 @@ from rest_framework.response import Response
 from drf_yasg.utils import swagger_auto_schema
 from account.serializers.registration import RegistrationRequestSerializer
 
+from django.shortcuts import render
+import requests
+from django.utils.translation import gettext_lazy as _
+from django.contrib.auth import authenticate, login
+from django.contrib import messages
+from django.shortcuts import redirect
+
+def registration(request):
+    if request.method == 'POST':
+        messages.info(request, _('Добро пожаловать на сайт.'))  
+        return redirect('/')
 
 class RegistrationView(APIView):
     '''

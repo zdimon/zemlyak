@@ -26,6 +26,7 @@ class CityAdmin(TranslationAdmin):
     list_display = [
         'name',
         'country',
+        'country_alias',
         'is_occupated'
     ]
 

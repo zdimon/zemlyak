@@ -32,6 +32,7 @@ class Command(BaseCommand):
                     ct.name_en = city['name_en']
                     ct.name_uk = city['name_uk']
                     ct.alias = city['alias']
+                    ct.country_alias = c.alias
                     ct.is_occupated = city['is_occupated']
                     ct.country = c
                     ct.save()

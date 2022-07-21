@@ -21,6 +21,7 @@ class Country(models.Model):
 class City(models.Model):
     name = models.CharField(default='', max_length=250)
     alias = models.CharField(max_length=250)
+    country_alias = models.CharField(max_length=250, default='')
     country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
     is_occupated = models.BooleanField(default=False)
 
