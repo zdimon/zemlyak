@@ -1,4 +1,4 @@
 git add --all
 git commit -m 'auto'
 git push
-ssh zdimon@45.83.193.180 -t 'cd zemlyak; git pull; cd backend; ./bin/migrate'
+ssh webmaster@45.83.193.180 -t 'cd zemlyak; git pull; cd backend; ./bin/migrate'
