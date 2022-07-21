@@ -12,9 +12,10 @@ class UserProfileAdmin(admin.ModelAdmin):
         'username', 
         'gender', 
         'is_online', 
-        'city',
-        'country',
-        'birthday']
+        'target_city',
+        'target_country',
+        'source_city',
+        'source_country']
 
 @admin.register(Country)
 class CountryAdmin(TranslationAdmin):

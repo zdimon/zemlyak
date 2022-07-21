@@ -7,7 +7,8 @@ class RegistrationRequestSerializer(serializers.Serializer):
     password = serializers.CharField()
     birthday = serializers.CharField() # if use DataField we can not define the validator
     gender = serializers.ChoiceField(choices=['male','female'])
-    city = serializers.CharField()
+    source_city = serializers.CharField()
+    target_city = serializers.CharField()
 
     def validate_username(self, value):
         """
@@ -32,14 +33,17 @@ class RegistrationRequestSerializer(serializers.Serializer):
 
 
     def save(self):
-        city = City.objects.get(alias=self.validated_data['city'])
+        target_city = City.objects.get(alias=self.validated_data['target_city'])
+        source_city = City.objects.get(alias=self.validated_data['source_city'])
         profile = UserProfile()
         profile.username = self.validated_data['username']
         profile.set_password(self.validated_data['password'])
         profile.birthday = self.validated_data['birthday']
         profile.gender = self.validated_data['gender']
-        profile.city = city
-        profile.country = city.country
+        profile.target_city = target_city
+        profile.target_country = target_city.country
+        profile.source_city = source_city
+        profile.source_country = source_city.country
         profile.save()
         return profile
 

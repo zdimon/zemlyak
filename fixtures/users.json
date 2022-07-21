@@ -8,7 +8,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "odessa",
             "images": [
                 {"image":"man1.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -23,7 +24,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "odessa",
             "images": [
                 {"image":"man1.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -36,7 +38,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "berlin",
             "images": [
                 {"image":"man2.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -49,7 +52,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"man3.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -62,7 +66,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"man4.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -75,7 +80,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"man5.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -88,7 +94,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"man6.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -101,7 +108,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "mariupol",
+            "source_city": "mariupol",
+            "target_city": "munhen",
             "images": [
                 {"image":"man7.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -114,7 +122,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "mariupol",
+            "source_city": "mariupol",
+            "target_city": "munhen",
             "images": [
                 {"image":"man8.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -127,7 +136,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"man9.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -140,7 +150,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "mariupol",
+            "source_city": "mariupol",
+            "target_city": "munhen",
             "images": [
                 {"image":"man10.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -155,7 +166,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "kherson",
+            "source_city": "kherson",
+            "target_city": "munhen",
             "images": [
                 {"image":"woman1.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -168,7 +180,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "mariupol",
+            "source_city": "mariupol",
+            "target_city": "munhen",
             "images": [
                 {"image":"woman2.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -181,7 +194,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "munhen",
             "images": [
                 {"image":"woman3.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -194,7 +208,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "munhen",
             "images": [
                 {"image":"woman4.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -207,7 +222,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman5.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -220,7 +236,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman6.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -233,7 +250,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman7.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -246,7 +264,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman8.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -259,7 +278,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman9.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]
@@ -272,7 +292,8 @@
             "is_online": "false",
             "account": "0",
             "birthday": "1977-01-01",
-            "city": "odessa",
+            "source_city": "odessa",
+            "target_city": "kyiev",
             "images": [
                 {"image":"woman10.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
             ]

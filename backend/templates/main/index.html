@@ -24,7 +24,7 @@
     </div>
     <div class="card-body">
         <div class="row">
-            <div class="col-2">
+            <div class="col-1">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Страна' %} 
                 </h6>
@@ -34,7 +34,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-1">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Город' %} 
                     <ul>
@@ -44,17 +44,34 @@
                     </ul>
                 </h6>
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Земляки' %} 
                 </h6>
-                <ul>
-                    {% for user in users %}
-                        <li><a href="#">{{ user }}</a></li>
-                    {% endfor %}
-                </ul>
+
+                <table class="table table-bordered dataTable" id="dataTable" role="grid" aria-describedby="dataTable_info" style="width: 100%;" width="100%" cellspacing="0">
+                    
+                    <tbody>
+                        {% for user in users %}
+                        <tr class="odd">
+                            <td style="width:100px">
+                                <a href="#">{{ user.get_main_photo }}</a>
+
+                            </td>
+                            <td>
+                                <p>{{ user }}</p>
+                                <p>{% trans 'от куда' %}: {{ user.source_country }} {{ user.source_city }}</p>
+                                <p>{% trans 'куда' %}: {{ user.target_country }} {{ user.target_city }}</p>
+                            </td>
+                           
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Группы земляков' %} 
                 </h6>

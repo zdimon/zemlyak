@@ -52,8 +52,10 @@ class UserProfile(User):
     is_online = models.BooleanField(default=False)
     account = models.DecimalField(max_digits=20, decimal_places=2, default=Decimal(0.00))
     birthday = models.DateField(null=True, blank=True)
-    country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
-    city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True)
+    source_country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True, related_name="source_country")
+    source_city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True, related_name="source_city")
+    target_country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_country")
+    target_city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_city")
 
     def get_opposite_gender(self):
         if self.gender == 'male':
