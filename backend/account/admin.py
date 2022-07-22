@@ -1,8 +1,8 @@
 from django.contrib import admin
 from account.models import UserProfile, City, Country, CityGroup, Cafe, Cafe2Group
 from django.utils.html import mark_safe
-from modeltranslation.admin import TranslationAdmin
-
+from modeltranslation.admin import TranslationAdmin, TabbedTranslationAdmin
+from modeltranslation.admin import TranslationTabularInline
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
@@ -22,7 +22,7 @@ class CountryAdmin(TranslationAdmin):
     pass
 
 @admin.register(City)
-class CityAdmin(TranslationAdmin):
+class CityAdmin(TabbedTranslationAdmin):
     list_display = [
         'name',
         'country',
@@ -36,6 +36,15 @@ class CityGroupAdmin(admin.ModelAdmin):
         'source',
         'target'
     ]
+    class Media:
+        js = (
+            'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
+            'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js',
+            'modeltranslation/js/tabbed_translation_fields.js',
+        )
+        css = {
+            'screen': ('modeltranslation/css/tabbed_translation_fields.css',),
+        }
 
 @admin.register(Cafe)
 class CafeAdmin(admin.ModelAdmin):
