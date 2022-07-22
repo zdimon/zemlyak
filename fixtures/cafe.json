@@ -15,6 +15,14 @@
         "desc_en":  "French, Austrian, Cafe, European, Czech, Central European",
         "desc_uk":  "Французька, Австрійська, Кафе, Європейська, Чеська, Центральноєвропейська",  
         "city": "uzhhorod"
+    },
+    {
+        "name": "Indigo Shanti-Cafe",
+        "link": "https://www.tripadvisor.ru/Restaurant_Review-g298059-d14024199-Reviews-Indigo_Shanti_Cafe-Uzhhorod_Zakarpattia_Oblast.html",
+        "desc_ru":  "Кафе, Здоровая, Ближневосточная",
+        "desc_en":  "Cafe, Healthy, Middle Eastern",
+        "desc_uk":  "Кафе, Здорова, Близькосхідна",  
+        "city": "uzhhorod"
     }
 
 ]
