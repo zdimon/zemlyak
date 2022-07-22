@@ -1,5 +1,5 @@
 from django.contrib import admin
-from account.models import UserProfile, City, Country, CityGroup
+from account.models import UserProfile, City, Country, CityGroup, Cafe, Cafe2Group
 from django.utils.html import mark_safe
 from modeltranslation.admin import TranslationAdmin
 
@@ -35,4 +35,18 @@ class CityGroupAdmin(admin.ModelAdmin):
     list_display = [
         'source',
         'target'
+    ]
+
+@admin.register(Cafe)
+class CafeAdmin(admin.ModelAdmin):
+    list_display = [
+        'name',
+        'city'
+    ]
+
+@admin.register(Cafe2Group)
+class Cafe2GroupAdmin(admin.ModelAdmin):
+    list_display = [
+        'group',
+        'cafe'
     ]

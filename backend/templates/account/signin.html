@@ -13,18 +13,7 @@
                 </h6>
             </div>
             <div class="card-body">
-                <form method="POST" action="" >
-                    {% csrf_token %}
-                <div class="form-group">
-                    <input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="password" class="form-control form-control-user" id="exampleInputEmail" placeholder="{% trans 'Пароль' %}">
-                </div>
-                <button  class="btn btn-primary btn-user btn-block">
-                    {% trans 'Войти' %}
-                </button>
-            </form>
+                {% include 'forms/signin.html' %}
             </div>
         </div>
 
@@ -35,73 +24,7 @@
                 </h6>
             </div>
             <div class="card-body">
-                <form method="POST" action="{% url 'user-registration' %}" >
-                    {% csrf_token %}
-                <div class="form-group">
-                    <label>{% trans 'Email' %}</label>
-                    <input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label>{% trans 'Пароль' %}</label>
-                    <input type="password" name="password" class="form-control form-control-user" id="exampleInputEmail" placeholder="{% trans 'Пароль' %}">
-                </div>
-                <div class="form-group">
-                    <label>{% trans 'Имя' %}</label>
-                    <input type="text" name="publicname" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label>{% trans 'Фамилия' %}</label>
-                    <input type="text" name="surename" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-                </div>
-
-                <h6 class="m-0 font-weight-bold text-primary">
-                    {% trans 'От куда приехали?' %} 
-                </h6>                   
-                <div class="form-group">
-                    {% trans 'Страна' %}    
-                    <select id="source_country" class="form-control form-control-user" >
-                        {% for country in countries %}
-                            <option value="{{ country.alias }}">{{ country }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div class="form-group">
-                    {% trans 'Город' %}    
-                    <select id="source_city" class="form-control form-control-user" >
-                        {% for city in cities %}
-                            <option value="{{ city.alias }}">
-                                {{ city }}
-                            </option>
-                        {% endfor %}
-                    </select>
-                </div>
-
-                <h6 class="m-0 font-weight-bold text-primary">
-                    {% trans 'Куда переехали?' %} 
-                </h6>                   
-                <div class="form-group">
-                    {% trans 'Страна' %}    
-                    <select id="target_country" class="form-control form-control-user" >
-                        {% for country in countries %}
-                            <option value="{{ country.alias }}">{{ country }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div class="form-group">
-                    {% trans 'Город' %}    
-                    <select id="target_city" class="form-control form-control-user" >
-                        {% for city in cities %}
-                            <option value="{{ city.alias }}">
-                                {{ city }}
-                            </option>
-                        {% endfor %}
-                    </select>
-                </div>
-
-                <button  class="btn btn-primary btn-user btn-block">
-                    {% trans 'Зарегистрироваться' %}
-                </button>
-            </form>                
+                {% include 'forms/registration.html' %}       
             </div>
         </div>
     </div>

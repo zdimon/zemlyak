@@ -1,5 +1,5 @@
 import os
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = 'http://localhost:7777/v1/'
 BACKEND_URL = 'http://localhost:7777'
 CENT_URL='http://localhost:9999/api'

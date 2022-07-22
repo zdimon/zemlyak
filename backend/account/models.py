@@ -28,12 +28,39 @@ class City(models.Model):
     def __str__(self) -> str:
         return self.name
 
+
+
 class CityGroup(models.Model):
     target = models.ForeignKey(City, on_delete=models.CASCADE, related_name="target")
     source = models.ForeignKey(City, on_delete=models.CASCADE, related_name="source")
 
     def __str__(self) -> str:
         return '%s -> %s' % (self.source, self.target)
+
+class Cafe(models.Model):
+    name = models.CharField(default='', max_length=250)
+    link = models.CharField(default='', max_length=250)
+    desc = models.TextField(default='')
+    image = models.ImageField(upload_to='cafe')
+    alias = models.CharField(max_length=250)
+    city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True)
+    
+        
+    def __str__(self) -> str:
+        return self.name
+
+    def set_groups(self):
+        from account.models import CityGroup
+        for group in CityGroup.objects.filter(target=self.city):
+            c2g = Cafe2Group()
+            c2g.group = group
+            c2g.cafe = self
+            c2g.save()
+
+class Cafe2Group(models.Model):
+    group = models.ForeignKey(CityGroup, on_delete=models.CASCADE)
+    cafe = models.ForeignKey(Cafe, on_delete=models.CASCADE)
+
 class UserProfile(User):
     GENDER = (
         ('male', _('Man')),
@@ -57,7 +84,7 @@ class UserProfile(User):
     source_city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True, related_name="source_city")
     target_country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_country")
     target_city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True, related_name="target_city")
-
+    group = models.ForeignKey(CityGroup, on_delete=models.SET_NULL, null=True, blank=True)
     def __str__(self) -> str:
         return self.publicname
 

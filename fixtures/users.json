@@ -25,7 +25,7 @@
             "account": "0",
             "birthday": "1977-01-01",
             "source_city": "kherson",
-            "target_city": "odessa",
+            "target_city": "uzhhorod",
             "images": [
                 {"image":"man1.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]
@@ -123,7 +123,7 @@
             "account": "0",
             "birthday": "1977-01-01",
             "source_city": "mariupol",
-            "target_city": "munhen",
+            "target_city": "uzhhorod",
             "images": [
                 {"image":"man8.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
             ]

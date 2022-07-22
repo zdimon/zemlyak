@@ -1,0 +1,22 @@
+[
+
+    {
+        "name": "Сакура",
+        "link": "https://www.tripadvisor.ru/Restaurant_Review-g298059-d8609020-Reviews-Eat_Me_Cafe-Uzhhorod_Zakarpattia_Oblast.html",
+        "desc_ru":  "ТИП КУХНИ Американская, Кафе, Европейская, Здоровая",
+        "desc_en":  "CUISINE TYPE American, Cafe, European, Healthy",
+        "desc_uk":  "ТИП КУХНІ Американська, Кафе, Європейська, Здорова",  
+        "city": "uzhhorod"
+    },
+    {
+        "name": "Кондитерский дом Бондаренко",
+        "link": "https://www.tripadvisor.ru/Restaurant_Review-g298059-d8671704-Reviews-Konditerskii_Dim_Bondarenko-Uzhhorod_Zakarpattia_Oblast.html",
+        "desc_ru":  "Французская, Австрийская, Кафе, Европейская, Чешская, Центральноевропейская",
+        "desc_en":  "French, Austrian, Cafe, European, Czech, Central European",
+        "desc_uk":  "Французька, Австрійська, Кафе, Європейська, Чеська, Центральноєвропейська",  
+        "city": "uzhhorod"
+    }
+
+]
+
+

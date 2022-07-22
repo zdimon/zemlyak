@@ -27,6 +27,13 @@
                 "is_occupated": false
             },
             {
+                "name_ru": "Ужгород",
+                "name_en": "Uzhhorod",
+                "name_uk": "Ужгород",
+                "alias": "uzhhorod",
+                "is_occupated": false
+            },
+            {
                 "name_ru": "Мариуполь",
                 "name_en": "Mariupol",
                 "name_uk": "Маріуполь",
