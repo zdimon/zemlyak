@@ -14,7 +14,7 @@ def homepage(request,country='ukraine',city=None):
         about = f.read()
     current_city = None
     if city:
-        current_city = City.objects.get(alias=city)
+        current_city = City.objects.get(name_en=city)
     countries = Country.objects.all()
     current_country = Country.objects.get(alias=country)
     cities = City.objects.filter(country=current_country)
