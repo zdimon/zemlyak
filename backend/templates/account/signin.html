@@ -3,28 +3,77 @@
 {%  block content %}
 
 
+<div class="container-fluid">
+    <div class="row">
 
-    <div class="card shadow mb-6">
-        <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">
-                {% trans 'Вход' %} 
-            </h6>
+        <div class="card shadow col-xl-6 col-md-6">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">
+                    {% trans 'Вход' %} 
+                </h6>
+            </div>
+            <div class="card-body">
+                {% include 'forms/signin.html' %}
+            </div>
         </div>
-        <div class="card-body">
-            
+
+        <div class="card shadow col-xl-6 col-md-6 mb-6">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">
+                    {% trans 'Регистрация' %} 
+                </h6>
+            </div>
+            <div class="card-body">
+                {% include 'forms/registration.html' %}       
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="card shadow mb-6">
-        <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">
-                {% trans 'Регистрация' %} 
-            </h6>
-        </div>
-        <div class="card-body">
-            
-        </div>
-    </div>
+{% endblock %}
 
+{%  block js %}
+<script>
+    $("#target_country").change(function () {
+        var url = `{{ api_url }}account/get_city`; 
+        $.ajax({
+            url: url,                    
+            data: {
+              'country_alias': $(this).val()
+            },
+            success: function (data) { 
+                console.log(data);
+                //temp_intakes = data.data;
+                $('#target_city').empty();
+                $.each(data.payload, function(index, item){
+                    $('select[id=target_city]').append(
+                        $('<option></option>').val(item.alias).html(item.name)
+                    );
+                });
+                
+            }
+        });
+    });
 
+    $("#source_country").change(function () {
+        var url = `{{ api_url }}account/get_city`; 
+        $.ajax({
+            url: url,                    
+            data: {
+              'country_alias': $(this).val()
+            },
+            success: function (data) { 
+                console.log(data);
+                //temp_intakes = data.data;
+                $('#source_city').empty();
+                $.each(data.payload, function(index, item){
+                    $('select[id=source_city]').append(
+                        $('<option></option>').val(item.alias).html(item.name)
+                    );
+                });
+                
+            }
+        });
+    });
+</script>
 {% endblock %}

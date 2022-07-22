@@ -1,4 +1,9 @@
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = 'http://localhost:7777/v1/'
 BACKEND_URL = 'http://localhost:7777'
 CENT_URL='http://localhost:9999/api'
 CENT_KEY='e904b803-f695-4286-8af1-063b346a3955'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
