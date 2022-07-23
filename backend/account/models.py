@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy as _
 from decimal import Decimal
 from django.contrib.auth.models import User
 from django.utils.safestring import mark_safe
-
+from slugify import slugify
 from backend.celery import app
 from rest_framework.authtoken.models import Token
 
@@ -20,12 +20,18 @@ class Country(models.Model):
 
 class City(models.Model):
     name = models.CharField(default='', max_length=250)
+    region = models.CharField(default='', max_length=250)
+    alias = models.CharField(default='', max_length=250, null=True, blank=True)
     country_alias = models.CharField(max_length=250, default='', null=True, blank=True)
     country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
     is_occupated = models.BooleanField(default=False)
 
     def __str__(self) -> str:
         return self.name
+
+    def save(self, *args, **kwargs):
+        self.alias = slugify(self.name_en)
+        super(City, self).save(*args, **kwargs)
 
 
 

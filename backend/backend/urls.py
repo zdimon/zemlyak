@@ -7,6 +7,7 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from django.contrib.auth.views import LogoutView
 
+
 schema_view = get_schema_view(
    openapi.Info(
       title="Just dating API",
@@ -37,6 +38,7 @@ from schema_graph.views import Schema
 from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
+    path('', include('social_django.urls', namespace='social')),
     path('web/', include('web.urls')),
     path('mobi/', index_mobi),
     path('mobi/folder/Inbox', index_mobi),

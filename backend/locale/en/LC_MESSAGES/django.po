@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-21 06:02+0000\n"
+"POT-Creation-Date: 2022-07-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: account/models.py:19
+#: account/models.py:65
 msgid "Man"
 msgstr ""
 
-#: account/models.py:20
+#: account/models.py:66
 msgid "Woman"
 msgstr ""
 
-#: account/models.py:24
+#: account/models.py:70
 msgid "Gender"
+msgstr ""
+
+#: account/views/registration.py:36 account/views/signin.py:21
+msgid "Добро пожаловать на сайт."
+msgstr ""
+
+#: account/views/signin.py:24
+msgid "Ошибка. Неправильный логин или пароль"
 msgstr ""
 
 #: quiz/models.py:19
@@ -170,27 +178,98 @@ msgstr ""
 msgid "sticker"
 msgstr ""
 
+#: templates/account/group_detail.html:12
+msgid "Группа"
+msgstr ""
+
+#: templates/account/group_detail.html:16
+msgid "Участники группы"
+msgstr ""
+
+#: templates/account/group_detail.html:23
+msgid "Место встречи земляков"
+msgstr ""
+
+#: templates/account/group_detail.html:32
+msgid "Присоединиться к группе"
+msgstr ""
+
+#: templates/account/signin.html:12 templates/main/header.html:108
+msgid "Вход"
+msgstr ""
+
+#: templates/account/signin.html:23
+msgid "Регистрация"
+msgstr ""
+
+#: templates/forms/registration.html:5
+msgid "Email"
+msgstr ""
+
+#: templates/forms/registration.html:9 templates/forms/registration.html:10
+#: templates/forms/signin.html:8
+msgid "Пароль"
+msgstr ""
+
+#: templates/forms/registration.html:13
+msgid "Имя"
+msgstr ""
+
+#: templates/forms/registration.html:17
+msgid "Фамилия"
+msgstr ""
+
+#: templates/forms/registration.html:22
+msgid "От куда приехали?"
+msgstr ""
+
+#: templates/forms/registration.html:25 templates/forms/registration.html:47
+#: templates/main/index.html:29
+msgid "Страна"
+msgstr ""
+
+#: templates/forms/registration.html:33 templates/forms/registration.html:55
+#: templates/main/index.html:39
+msgid "Город"
+msgstr ""
+
+#: templates/forms/registration.html:44
+msgid "Куда переехали?"
+msgstr ""
+
+#: templates/forms/registration.html:66
+msgid "Зарегистрироваться"
+msgstr ""
+
+#: templates/forms/signin.html:11
+msgid "Войти"
+msgstr ""
+
 #: templates/main/header.html:11
 msgid "найди земляков"
 msgstr ""
 
-#: templates/main/header.html:15
-msgid "Вход"
+#: templates/main/header.html:14
+msgid "Мы поможем вам найти друзей в это трудное время!"
 msgstr ""
 
-#: templates/main/header.html:18
-msgid "Регистрация"
+#: templates/main/header.html:89
+msgid "Профиль"
 msgstr ""
 
-#: templates/main/header.html:124 templates/main/header.html:134
+#: templates/main/header.html:98 templates/main/layout.html:103
+msgid "Выход"
+msgstr ""
+
+#: templates/main/header.html:130 templates/main/header.html:140
 msgid "Английский"
 msgstr ""
 
-#: templates/main/header.html:128 templates/main/header.html:144
+#: templates/main/header.html:134 templates/main/header.html:150
 msgid "Украинский"
 msgstr ""
 
-#: templates/main/header.html:138 templates/main/header.html:148
+#: templates/main/header.html:144 templates/main/header.html:154
 msgid "Русский"
 msgstr ""
 
@@ -202,11 +281,19 @@ msgstr ""
 msgid "Поиск"
 msgstr ""
 
-#: templates/main/index.html:26
-msgid "Город"
+#: templates/main/index.html:49
+msgid "Земляки"
 msgstr ""
 
-#: templates/main/index.html:31
+#: templates/main/index.html:63
+msgid "от куда"
+msgstr ""
+
+#: templates/main/index.html:64
+msgid "куда"
+msgstr ""
+
+#: templates/main/index.html:76
 msgid "Группы земляков"
 msgstr ""
 
@@ -228,6 +315,18 @@ msgstr ""
 
 #: templates/main/layout.html:73
 msgid "ОБ АВТОРЕ"
+msgstr ""
+
+#: templates/main/layout.html:108
+msgid "Вы уверены что хотите выйти?"
+msgstr ""
+
+#: templates/main/layout.html:110
+msgid "Отмена"
+msgstr ""
+
+#: templates/main/layout.html:111
+msgid "Выйти"
 msgstr ""
 
 #: usermedia/models.py:14

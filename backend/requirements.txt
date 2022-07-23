@@ -21,3 +21,7 @@ django-extensions
 django-schema-graph
 django-modeltranslation
 django-rosetta
+social-auth-core
+social-auth-app-django
+googletrans==3.1.0a0
+python-slugify

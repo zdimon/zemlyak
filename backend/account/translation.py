@@ -7,7 +7,7 @@ class CountryTranslationOptions(TranslationOptions):
 translator.register(Country, CountryTranslationOptions)
 
 class CityTranslationOptions(TranslationOptions):
-    fields = ('name',)
+    fields = ('name', 'region')
 
 translator.register(City, CityTranslationOptions)
 
