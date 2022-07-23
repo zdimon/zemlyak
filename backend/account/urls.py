@@ -6,7 +6,7 @@ from account.views.init import InitView
 from .views import signin, registration
 from .views.get_city import GetCityView
 from .views.group_detail import city_group_detail
-
+from .views.city_detail import city_detail
 
 urlpatterns = [ 
     path('registration',RegistrationView.as_view()),
@@ -18,4 +18,5 @@ urlpatterns = [
     path('user-registration',registration, name='user-registration'),
     path('get_city',GetCityView.as_view()),
     path('city/group/detail/<slug:source_city>/<slug:target_city>',city_group_detail, name="city-group-detail"),
+    path('city/detail/<slug:city>',city_detail, name="city-detail"),
 ]
