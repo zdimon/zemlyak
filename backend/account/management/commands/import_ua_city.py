@@ -17,7 +17,7 @@ class Command(BaseCommand):
         user_file = f'{FIXTURES_PATH}/city/city-ua.json'
         with open(user_file,'r') as f:
             jdata = json.loads(f.read())
-            print(jdata)
+            #print(jdata)
             country = Country.objects.get(alias='ukraine')
             City.objects.filter(country=country).delete()
             for city in jdata:
