@@ -15,7 +15,7 @@ class Command(BaseCommand):
         print('Loading city group')
         CityGroup.objects.all().delete()
         for target in City.objects.all():
-            for source in City.objects.filter(is_occupated=False):
+            for source in City.objects.filter(is_occupated=False)[0:4]:
                 if source != target:
                     cg = CityGroup()
                     cg.source = source
