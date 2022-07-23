@@ -24,6 +24,18 @@
     </div>
     <div class="card-body">
         <div class="row">
+
+            
+            {% for city in cities %}
+            <div class="col-1">
+                <a href="{% url 'filter-country-city' country=city.country.alias city=city.alias%}">{{ city }} 
+                
+            </div>
+            {% endfor %}
+            
+
+
+            <!-- 
             <div class="col-1">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Страна' %} 
@@ -34,17 +46,22 @@
                     {% endfor %}
                 </ul>
             </div>
+            -->
+            <!-- 
             <div class="col-1">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Город' %} 
                     <ul>
                         {% for city in cities %}
-                            <li><a href="{% url 'filter-country-city' country=city.country.alias city=city.name_en%}">{{ city }} </a></li>
+                            <li><a href="{% url 'filter-country-city' country=city.country.alias city=city.alias%}">{{ city }} </a></li>
                         {% endfor %}
                     </ul>
                 </h6>
             </div>
-            <div class="col-5">
+            -->
+
+            <!-- 
+            <div class="col-12">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Земляки' %} 
                 </h6>
@@ -68,19 +85,21 @@
                         {% endfor %}
                     </tbody>
                 </table>
-
-
             </div>
+            -->
+
+            <!-- 
             <div class="col-5">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Группы земляков' %} 
                 </h6>
                 <ul>
                     {% for citygroup in citygroups %}
-                        <li><a href="{% url 'city-group-detail' target_city=citygroup.target.name_en source_city=citygroup.source.name_en %}">{{ citygroup }}</a></li>
+                        <li><a href="{% url 'city-group-detail' target_city=citygroup.target.alias source_city=citygroup.source.alias %}">{{ citygroup }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
+            -->
         </div>
     </div>
 </div>

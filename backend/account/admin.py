@@ -24,10 +24,13 @@ class CountryAdmin(TranslationAdmin):
 @admin.register(City)
 class CityAdmin(TranslationAdmin):
     list_display = [
-        'name',
+        'name_ru',
+        'name_uk',
+        'name_en',
         'country',
-        'country_alias',
-        'is_occupated'
+        'region',
+        'is_occupated',
+        'alias'
     ]
 
 @admin.register(CityGroup)

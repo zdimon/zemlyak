@@ -14,10 +14,10 @@ def homepage(request,country='ukraine',city=None):
         about = f.read()
     current_city = None
     if city:
-        current_city = City.objects.get(name_en=city)
+        current_city = City.objects.get(alias=city)
     countries = Country.objects.all()
     current_country = Country.objects.get(alias=country)
-    cities = City.objects.filter(country=current_country)
+    cities = City.objects.filter(country=current_country).order_by('name_ru')
     citygroups = []
     if current_city and current_country:
         users = UserProfile.objects.filter(target_city=current_city)
