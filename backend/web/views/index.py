@@ -19,10 +19,10 @@ def homepage(request,country='ukraine',city=None):
     current_country = Country.objects.get(alias=country)
     cities = City.objects.filter(country=current_country).order_by('name_ru')
     citygroups = []
-    #if current_city and current_country:
-        #users = UserProfile.objects.filter(target_city=current_city)
+    if current_city and current_country:
+        users = UserProfile.objects.filter(target_city=current_city)
         #citygroups = CityGroup.objects.filter(target=current_city)
-    #else:
-       #users = UserProfile.objects.filter(target_country=current_country)
+    else:
+       users = UserProfile.objects.filter(target_country=current_country)
 
     return render(request, 'main/index.html',{"countries": countries, "current_country": current_country, "cities": cities, "current_city": current_city, "about": about})

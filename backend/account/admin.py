@@ -18,7 +18,12 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 @admin.register(Country)
 class CountryAdmin(TranslationAdmin):
-    pass
+    list_display = [
+        'name_ru',
+        'name_uk',
+        'name_en',
+        'alias'
+    ]
 
 @admin.register(City)
 class CityAdmin(TranslationAdmin):
