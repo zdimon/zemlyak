@@ -60,7 +60,8 @@ INSTALLED_APPS = [
     'doc',
     'schema_graph',
     'rosetta',
-    'social_django'
+    'social_django',
+    'fake'
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

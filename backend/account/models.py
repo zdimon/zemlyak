@@ -20,6 +20,7 @@ class Country(models.Model):
 
 class City(models.Model):
     name = models.CharField(default='', max_length=250)
+    prof = models.CharField(default='', max_length=250)
     region = models.CharField(default='', max_length=250)
     alias = models.CharField(default='', max_length=250, null=True, blank=True)
     country_alias = models.CharField(max_length=250, default='', null=True, blank=True)
@@ -80,6 +81,7 @@ class UserProfile(User):
         max_length=6)
 
     publicname = models.CharField(default='', max_length=250)
+    prof = models.CharField(default='', max_length=250)
     surename = models.CharField(default='', max_length=250)
     telegram = models.CharField(default='', max_length=250)
     is_online = models.BooleanField(default=False)

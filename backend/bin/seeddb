@@ -8,6 +8,8 @@ python3 manage.py migrate
 python3 manage.py load_country
 python3 manage.py import_ua_city
 python3 manage.py load_citygroup
+python3 manage.py import_fake_prof
+python3 manage.py import_fake_names
 python3 manage.py load_users
-python3 manage.py load_media
-python3 manage.py load_cafe
+#python3 manage.py load_media
+#python3 manage.py load_cafe

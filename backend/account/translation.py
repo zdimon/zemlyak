@@ -1,5 +1,10 @@
 from modeltranslation.translator import translator, TranslationOptions
-from .models import Country, City, Cafe
+from .models import Country, City, Cafe, UserProfile
+
+class UserProfileTranslationOptions(TranslationOptions):
+    fields = ('publicname', 'prof')
+
+translator.register(UserProfile, UserProfileTranslationOptions)
 
 class CountryTranslationOptions(TranslationOptions):
     fields = ('name',)
