@@ -6,4 +6,8 @@ from account.models import UserProfile
 
 
 def profile(request):
-    return render(request,'account/profile.html',{});
+  
+    user_profile = UserProfile.objects.get(publicname = 'Vitalii')
+   
+    
+    return render(request,'account/profile.html',{"user_profile":user_profile });
