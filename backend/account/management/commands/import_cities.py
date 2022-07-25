@@ -10,7 +10,7 @@ factory = RequestFactory()
 from account.views.registration import RegistrationView
 from django.db.models import Q
 from googletrans import Translator
-
+from os.path import exists
 translator = Translator()
 
 class Command(BaseCommand):
@@ -20,20 +20,22 @@ class Command(BaseCommand):
         City.objects.filter(~Q(country_alias='ukraine')).delete()
         for country in Country.objects.filter(~Q(alias='Ukraine')):
             print(country)
-            source = os.path.join(FIXTURES_PATH, f'city/{country.alias.capitalize() }.json')
+            source = os.path.join(FIXTURES_PATH, f'city/{country.alias}.json')
+            if not exists(source):
+                continue            
             with open(source,'r') as f:
                 jdata = json.loads(f.read())
-            for city in jdata:
-                print(city['city'])
+            for city in jdata["city"]:
+                print(city['name_ru'])
                 ct = City()
-                ct.name_en = city['city']
-                ct.name_ru = translator.translate(city['city'],src='en', dest='ru').text
-                ct.name_uk = translator.translate(city['city'],src='en', dest='uk').text
-                ct.region_en = city['state']
-                ct.region_ru = translator.translate(city['state'],src='en', dest='ru').text
-                ct.region_uk = translator.translate(city['state'],src='en', dest='uk').text
-                ct.alias = city['city'].lower()
-                ct.country_alias = country.alias.lower()
+                ct.name_en = city['name_en']
+                ct.name_ru = city['name_ru']
+                ct.name_uk = city['name_uk']
+                ct.region_en = city['region_en']
+                ct.region_ru = city['region_ru']
+                ct.region_uk = city['region_uk']
+                ct.alias = city['alias']
+                ct.country_alias = city['country_alias']
                 ct.is_occupated = False
                 ct.country = country
                 ct.save()            
