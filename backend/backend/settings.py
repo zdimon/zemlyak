@@ -61,7 +61,8 @@ INSTALLED_APPS = [
     'schema_graph',
     'rosetta',
     'social_django',
-    'fake'
+    'fake',
+    'mailing'
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
@@ -116,13 +117,6 @@ CSRF_TRUSTED_ORIGINS = ['https://*.zemlyak.in.ua','https://*.127.0.0.1','http://
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 
 # Password validation
