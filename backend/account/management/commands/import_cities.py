@@ -17,8 +17,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         print('Loading city')
-        City.objects.filter(~Q(country_alias='ukraine')).delete()
-        for country in Country.objects.filter(~Q(alias='Ukraine')):
+        City.objects.all().delete()
+        for country in Country.objects.all():
             print(country)
             source = os.path.join(FIXTURES_PATH, f'city/{country.alias}.json')
             if not exists(source):

@@ -25,11 +25,11 @@ class Command(BaseCommand):
         url = "https://andruxnet-world-cities-v1.p.rapidapi.com/"
 
         #for country in Country.objects.filter(~Q(alias='Ukraine')):
-        country = Country.objects.get(alias='australia')
+        country = Country.objects.get(alias='ukraine')
         print(country)
 
         querystring = {"query":country.alias,"searchby":"country"}
-        source = os.path.join(FIXTURES_PATH, f'city/{country.alias.capitalize()}.json')
+        source = os.path.join(FIXTURES_PATH, f'city/{country.alias}.json')
         #print(querystring)
 
         response = requests.request("GET", url, headers=headers, params=querystring)
