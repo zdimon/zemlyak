@@ -85,26 +85,26 @@
                                                 </div>
                                                 <!-- Form target city-->
                                                 <div class="col-md-6">
-                                                    <label class="small mb-1" for="target_country">В городе:</label>
-                                                    <input class="form-control" id="target_country" type="text" placeholder="В городе" value="{{user_profile.target_city}}">
+                                                    <label class="small mb-1" for="target_city">В городе:</label>
+                                                    <input class="form-control" id="target_city" type="text" placeholder="В городе" value="{{user_profile.target_city}}">
                                                 </div>
                                             </div>
                                             <!-- Form Group (email address)-->
                                             <div class="mb-3">
                                                 <label class="small mb-1" for="inputEmailAddress">Email address</label>
-                                                <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="name@example.com">
+                                                <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="{{user_profile.email}}">
                                             </div>
                                             <!-- Form Row-->
                                             <div class="row gx-3 mb-3">
-                                                <!-- Form Group (phone number)-->
+                                                <!-- Form telegram-->
                                                 <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputPhone">Phone number</label>
-                                                    <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" value="555-123-4567">
+                                                    <label class="small mb-1" for="inputPhone">Telegram</label>
+                                                    <input class="form-control" id="telegram" type="tel" placeholder="Telegram:" value="{{user_profile.telegram}}">
                                                 </div>
                                                 <!-- Form Group (birthday)-->
                                                 <div class="col-md-6">
                                                     <label class="small mb-1" for="inputBirthday">Birthday</label>
-                                                    <input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" value="06/10/1988">
+                                                    <input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" value="{{user_profile.birthday}}">
                                                 </div>
                                             </div>
                                             <!-- Save changes button-->
@@ -121,3 +121,6 @@
         </div>
        
 </div>
+
+{%  endblock content %}
+
