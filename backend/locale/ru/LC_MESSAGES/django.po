@@ -9,96 +9,95 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 07:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2022-07-23 09:10+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: account/models.py:65
 msgid "Man"
-msgstr ""
+msgstr "Мужчина"
 
 #: account/models.py:66
 msgid "Woman"
-msgstr ""
+msgstr "Женщина"
 
 #: account/models.py:70
 msgid "Gender"
-msgstr ""
+msgstr "Пол"
 
 #: account/views/registration.py:36 account/views/signin.py:21
 msgid "Добро пожаловать на сайт."
-msgstr ""
+msgstr "Добро пожаловать на сайт"
 
 #: account/views/signin.py:24
 msgid "Ошибка. Неправильный логин или пароль"
-msgstr ""
+msgstr "Ошибка. Неправильный логин или пароль"
 
 #: quiz/models.py:19
 msgid "Alias"
-msgstr ""
+msgstr "Псевдоним"
 
 #: quiz/models.py:20
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: quiz/models.py:33
 msgid "Elementary"
-msgstr ""
+msgstr "Элементарный"
 
 #: quiz/models.py:34
 msgid "Easy"
-msgstr ""
+msgstr "Легкий"
 
 #: quiz/models.py:35
 msgid "Middle"
-msgstr ""
+msgstr "Средний"
 
 #: quiz/models.py:36
 msgid "Hard"
-msgstr ""
+msgstr "Тяжелый"
 
 #: quiz/models.py:37
 msgid "Very hard"
-msgstr ""
+msgstr "Очень тяжелый"
 
 #: quiz/models.py:40
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: quiz/models.py:41
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: quiz/models.py:42
 msgid "Russian and English"
-msgstr ""
+msgstr "Русский  и Английский"
 
 #: quiz/models.py:46
 msgid "Full match"
-msgstr ""
+msgstr "Полное совпадение"
 
 #: quiz/models.py:47
 msgid "Substring match"
-msgstr ""
+msgstr "Совпадение подстроки"
 
 #: quiz/models.py:51
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: quiz/models.py:52
 msgid "Level"
-msgstr ""
+msgstr "Уровень"
 
 #: quiz/models.py:53
 msgid "Mode of quize"
-msgstr ""
+msgstr "Режим викторины"
 
 #: quiz/models.py:54
 msgid "Type of matching"

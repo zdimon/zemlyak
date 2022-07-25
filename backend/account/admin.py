@@ -13,13 +13,17 @@ class UserProfileAdmin(admin.ModelAdmin):
         'gender', 
         'is_online', 
         'target_city',
-        'target_country',
-        'source_city',
-        'source_country']
+        'publicname',
+        'source_city']
 
 @admin.register(Country)
 class CountryAdmin(TranslationAdmin):
-    pass
+    list_display = [
+        'name_ru',
+        'name_uk',
+        'name_en',
+        'alias'
+    ]
 
 @admin.register(City)
 class CityAdmin(TranslationAdmin):

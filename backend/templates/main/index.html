@@ -47,9 +47,11 @@
 
             
             {% for city in cities %}
-            <div class="col-1">
-                <a href="{% url 'filter-country-city' country=city.country.alias city=city.alias%}">{{ city }} 
-                
+            <div class="col-xl-2 col-md-4 mb-3">
+                <a href="{% url 'city-detail' city=city.alias %}">
+                    {{ city }} 
+                </a>
+                <p>{{ city.region }} </p>
             </div>
             {% endfor %}
             

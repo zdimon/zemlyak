@@ -1,0 +1,6 @@
+. ./venv/bin/activate
+python3 manage.py import_country
+python3 manage.py import_ua_city
+python3 manage.py import_cities
+python3 manage.py import_fake_prof
+python3 manage.py import_fake_names

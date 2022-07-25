@@ -9,53 +9,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 07:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2022-07-23 08:41+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
-"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
-"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
-"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: account/models.py:65
 msgid "Man"
-msgstr ""
+msgstr "Чоловік"
 
 #: account/models.py:66
 msgid "Woman"
-msgstr ""
+msgstr "Жінка"
 
 #: account/models.py:70
 msgid "Gender"
-msgstr ""
+msgstr "Стать"
 
 #: account/views/registration.py:36 account/views/signin.py:21
 msgid "Добро пожаловать на сайт."
-msgstr ""
+msgstr "Ласкаво просимо на сайт."
 
 #: account/views/signin.py:24
 msgid "Ошибка. Неправильный логин или пароль"
-msgstr ""
+msgstr "Помилка.Невірний логін або пароль"
 
 #: quiz/models.py:19
 msgid "Alias"
-msgstr ""
+msgstr "Псевдонім"
 
 #: quiz/models.py:20
 msgid "Name"
-msgstr ""
+msgstr "Ім'я"
 
 #: quiz/models.py:33
 msgid "Elementary"
-msgstr ""
+msgstr "Елементарно"
 
 #: quiz/models.py:34
 msgid "Easy"
-msgstr ""
+msgstr "Легко"
 
 #: quiz/models.py:35
 msgid "Middle"
@@ -63,39 +61,39 @@ msgstr ""
 
 #: quiz/models.py:36
 msgid "Hard"
-msgstr ""
+msgstr "Важкий"
 
 #: quiz/models.py:37
 msgid "Very hard"
-msgstr ""
+msgstr "Дуже важкий"
 
 #: quiz/models.py:40
 msgid "Russian"
-msgstr ""
+msgstr "Російська"
 
 #: quiz/models.py:41
 msgid "English"
-msgstr ""
+msgstr "Англійська"
 
 #: quiz/models.py:42
 msgid "Russian and English"
-msgstr ""
+msgstr "Російська та англійська"
 
 #: quiz/models.py:46
 msgid "Full match"
-msgstr ""
+msgstr "Повний збіг"
 
 #: quiz/models.py:47
 msgid "Substring match"
-msgstr ""
+msgstr " Збіг підрядка"
 
 #: quiz/models.py:51
 msgid "Language"
-msgstr ""
+msgstr "Мова"
 
 #: quiz/models.py:52
 msgid "Level"
-msgstr ""
+msgstr "Рівень"
 
 #: quiz/models.py:53
 msgid "Mode of quize"
@@ -103,27 +101,27 @@ msgstr ""
 
 #: quiz/models.py:54
 msgid "Type of matching"
-msgstr ""
+msgstr "Тип відповідності"
 
 #: quiz/models.py:56 quiz/models.py:119
 msgid "Question"
-msgstr ""
+msgstr "Запитання"
 
 #: quiz/models.py:57
 msgid "Answers"
-msgstr ""
+msgstr "Відповіді"
 
 #: quiz/models.py:57
 msgid "Divided by coma"
-msgstr ""
+msgstr "Розділений комою"
 
 #: quiz/models.py:59
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
 #: quiz/models.py:85
 msgid "Till questions are fineshed."
-msgstr ""
+msgstr "Поки запитання не закінчаться"
 
 #: quiz/models.py:86
 msgid "Infinite quize (looping over questions)."
@@ -143,7 +141,7 @@ msgstr ""
 
 #: quiz/models.py:102
 msgid "Cur question"
-msgstr ""
+msgstr "Поточне питання"
 
 #: quiz/models.py:104
 msgid "Token"
@@ -183,187 +181,187 @@ msgstr ""
 
 #: templates/account/group_detail.html:12
 msgid "Группа"
-msgstr ""
+msgstr "Група"
 
 #: templates/account/group_detail.html:16
 msgid "Участники группы"
-msgstr ""
+msgstr "Учасники групи"
 
 #: templates/account/group_detail.html:23
 msgid "Место встречи земляков"
-msgstr ""
+msgstr "Місце зустрічі земляків"
 
 #: templates/account/group_detail.html:32
 msgid "Присоединиться к группе"
-msgstr ""
+msgstr "Приєднатися до групи"
 
 #: templates/account/signin.html:12 templates/main/header.html:108
 msgid "Вход"
-msgstr ""
+msgstr "Вхід "
 
 #: templates/account/signin.html:23
 msgid "Регистрация"
-msgstr ""
+msgstr "Реєстрація"
 
 #: templates/forms/registration.html:5
 msgid "Email"
-msgstr ""
+msgstr "І-мейл"
 
 #: templates/forms/registration.html:9 templates/forms/registration.html:10
 #: templates/forms/signin.html:8
 msgid "Пароль"
-msgstr ""
+msgstr "Пароль"
 
 #: templates/forms/registration.html:13
 msgid "Имя"
-msgstr ""
+msgstr "Ім'я"
 
 #: templates/forms/registration.html:17
 msgid "Фамилия"
-msgstr ""
+msgstr "Прізвище"
 
 #: templates/forms/registration.html:22
 msgid "От куда приехали?"
-msgstr ""
+msgstr "Звідки ви приїхали?"
 
 #: templates/forms/registration.html:25 templates/forms/registration.html:47
 #: templates/main/index.html:29
 msgid "Страна"
-msgstr ""
+msgstr "Країна"
 
 #: templates/forms/registration.html:33 templates/forms/registration.html:55
 #: templates/main/index.html:39
 msgid "Город"
-msgstr ""
+msgstr "Місто "
 
 #: templates/forms/registration.html:44
 msgid "Куда переехали?"
-msgstr ""
+msgstr "Куди переїхали?"
 
 #: templates/forms/registration.html:66
 msgid "Зарегистрироваться"
-msgstr ""
+msgstr "Зареєструватися"
 
 #: templates/forms/signin.html:11
 msgid "Войти"
-msgstr ""
+msgstr "Ввійти"
 
 #: templates/main/header.html:11
 msgid "найди земляков"
-msgstr ""
+msgstr "Знайди земляків"
 
 #: templates/main/header.html:14
 msgid "Мы поможем вам найти друзей в это трудное время!"
-msgstr ""
+msgstr "Ми допоможемо вам знайти друзів в цей важкий час"
 
 #: templates/main/header.html:89
 msgid "Профиль"
-msgstr ""
+msgstr "Профіль"
 
 #: templates/main/header.html:98 templates/main/layout.html:103
 msgid "Выход"
-msgstr ""
+msgstr "Вихід"
 
 #: templates/main/header.html:130 templates/main/header.html:140
 msgid "Английский"
-msgstr ""
+msgstr "Англійська"
 
 #: templates/main/header.html:134 templates/main/header.html:150
 msgid "Украинский"
-msgstr ""
+msgstr "Українська"
 
 #: templates/main/header.html:144 templates/main/header.html:154
 msgid "Русский"
-msgstr ""
+msgstr "Російська"
 
 #: templates/main/index.html:8
 msgid "О проекте"
-msgstr ""
+msgstr "Про проєкт"
 
 #: templates/main/index.html:19
 msgid "Поиск"
-msgstr ""
+msgstr "Пошук"
 
 #: templates/main/index.html:49
 msgid "Земляки"
-msgstr ""
+msgstr "Земляки"
 
 #: templates/main/index.html:63
 msgid "от куда"
-msgstr ""
+msgstr "Звідки"
 
 #: templates/main/index.html:64
 msgid "куда"
-msgstr ""
+msgstr "Куди"
 
 #: templates/main/index.html:76
 msgid "Группы земляков"
-msgstr ""
+msgstr "Групи земляків"
 
 #: templates/main/layout.html:13
 msgid "Земляк. Поиск земляков."
-msgstr ""
+msgstr "Земляк. Пошук земляків"
 
 #: templates/main/layout.html:70
 msgid "ПУБЛИЧНАЯ ОФЕРТА"
-msgstr ""
+msgstr "Публічна оферта"
 
 #: templates/main/layout.html:71
 msgid "ДОГОВОР О ДОСТАВКЕ"
-msgstr ""
+msgstr "Договір про доставку"
 
 #: templates/main/layout.html:72
 msgid "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
-msgstr ""
+msgstr "Політика конфіденційності"
 
 #: templates/main/layout.html:73
 msgid "ОБ АВТОРЕ"
-msgstr ""
+msgstr "Про автора"
 
 #: templates/main/layout.html:108
 msgid "Вы уверены что хотите выйти?"
-msgstr ""
+msgstr "Ви впевнені, що хочете вийти?"
 
 #: templates/main/layout.html:110
 msgid "Отмена"
-msgstr ""
+msgstr "Відміна"
 
 #: templates/main/layout.html:111
 msgid "Выйти"
-msgstr ""
+msgstr "Вийти"
 
 #: usermedia/models.py:14
 msgid "Photo"
-msgstr ""
+msgstr "Фото"
 
 #: usermedia/models.py:15
 msgid "Video"
-msgstr ""
+msgstr "Відео"
 
 #: usermedia/models.py:19
 msgid "Landscape"
-msgstr ""
+msgstr "Портрет"
 
 #: usermedia/models.py:20
 msgid "Portrait"
-msgstr ""
+msgstr "Портрет"
 
 #: usermedia/models.py:24
 msgid "Public"
-msgstr ""
+msgstr "Паблік"
 
 #: usermedia/models.py:25
 msgid "Private"
-msgstr ""
+msgstr "Приватний"
 
 #: usermedia/models.py:29
 msgid "Type of media"
-msgstr ""
+msgstr "Тип ЗМІ"
 
 #: usermedia/models.py:35
 msgid "Role of media"
-msgstr ""
+msgstr "Роль ЗМІ"
 
 #: usermedia/models.py:41
 msgid "Orientation"
-msgstr ""
+msgstr "Орієнтація"
