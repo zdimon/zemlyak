@@ -1,0 +1,11 @@
+[
+    {
+        "alias": "registration",
+        "title_ru": "Регистрация на сайте zemlyaki.com.ua",
+        "title_en": "Реєстрація на сайті zemlyaki.com.ua",
+        "title_uk": "Registration on the site zemlyaki.com.ua",
+        "content_ru": "Вы зарегистрировались на сайте zemlyaki.com.ua. Ссылка для активации аккаунта {{ link }}.",
+        "content_en": "You have registered on the website zemlyaki.com.ua. Account activation link {{ link }}.",
+        "content_uk": "Ви зареєструвалися на сайті www.zemlyaki.com.ua. Посилання для активації облікового запису {{link}}",
+    }
+]
