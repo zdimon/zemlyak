@@ -2,34 +2,35 @@
 {% load i18n %} 
 {%  block content %}
 
-
-<div class="card card-waves mb-4 mt-5">
-    <div class="card-body p-5">
+<header class="card card-waves">
+    <div class="card-body px-5 pt-5 pb-0">
         <div class="row align-items-center justify-content-between">
-            <div class="col">
-                <h2 class="text-primary">
-                    {% trans 'Мы поможем вам найти друзей в это трудное время!' %} 
-                    </h2>
-                <p class="text-gray-700">{{ about|safe }}</p>
-                <a class="btn btn-primary p-3" href="#!">
-                    Найти земляков
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right ms-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </a>
+            <div class="col-lg-6">
+                <h1 class="text-primary">
+                    {% trans 'Мы поможем вам найти друзей в это трудное время!' %}
+                </h1>
+                <p class="lead mb-4">{{ about|safe }}</p>
+                <div class="shadow rounded">
+                    <div class="input-group input-group-joined input-group-joined-xl border-0">
+                        <input class="form-control me-0" type="text" placeholder="{% trans 'Найдите город где живете' %}" aria-label="Search" autofocus="">
+                        <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                    </div>
+                </div>
             </div>
-            <div class="col d-none d-lg-block mt-xxl-n4"><img class="img-fluid px-xl-4 mt-xxl-n5" src="/static/img/cafe_1.jpg"></div>
+            <div class="col-lg-4"><img class="img-fluid" src="/static/img/cafe_1.jpg"></div>
         </div>
+       <br />
     </div>
-</div>
+</header>
+
+<h4 class="mb-0 mt-5">
+    {% trans 'Поиск' %} {{ current_country }} 
+    {% if current_city %}
+        {{ current_city }}
+    {% endif %}
+</h4>
 
 <div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">
-            {% trans 'Поиск' %} {{ current_country }} 
-            {% if current_city %}
-                {{ current_city }}
-            {% endif %}
-        </h6>
-    </div>
     <div class="card-body">
         <div class="row">
 
