@@ -1,0 +1,4 @@
+git add --all
+git commit -m 'auto'
+git push
+ssh zdimon@65.108.242.141 -t 'cd zemlyak; git pull'
