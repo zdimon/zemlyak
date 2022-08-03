@@ -21,5 +21,5 @@ def signin(request):
             messages.info(request, _('Добро пожаловать на сайт.'))   
             return redirect('/')         
         else:
-            messages.info(request, _('Ошибка. Неправильный логин или пароль'))    
+            messages.warning(request, _('Ошибка. Неправильный логин или пароль'))    
     return render(request, 'account/signin.html', {"countries": countries, "cities": cities, "api_url": API_URL})

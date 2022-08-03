@@ -32,7 +32,7 @@ def registration(request):
         p.source_city = source_city
         p.target_city = target_city
         p.save()
-        login(request, p)
+        login(request, p, backend='django.contrib.auth.backends.ModelBackend')
         messages.info(request, _('Добро пожаловать на сайт.'))  
         return redirect('/')
 

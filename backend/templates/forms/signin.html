@@ -1,19 +1,51 @@
 {% load i18n %} 
-<form method="POST" action="" >
-    {% csrf_token %}
-<div class="form-group">
-    <input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-</div>
-<div class="form-group">
-    <input type="password" name="password" class="form-control form-control-user" id="exampleInputEmail" placeholder="{% trans 'Пароль' %}">
-</div>
-<button  class="btn btn-primary btn-user btn-block">
-    {% trans 'Войти' %}
-</button>
-<!--
-<a class="btn btn-primary" href="{% url 'social:begin' 'google-oauth2' %}">
-    {% trans 'Войти с помощью Google' %}
-</a>
- -->
 
-</form>
+
+
+<div class="row justify-content-center">
+    <!-- Basic login form-->
+    <div class="card shadow-lg border-0 rounded-lg mt-5">
+        <div class="card-header justify-content-center"><h3 class="fw-light my-4">{% trans 'Вход' %}</h3></div>
+        <div class="card-body">
+            <!-- Login form-->
+            <form method="POST" action="" >
+                {% csrf_token %}
+                <!-- Form Group (email address)-->
+                <div class="mb-3">
+                    <label class="small mb-1" for="inputEmailAddress">{% trans 'Логин' %}</label>
+                    <input class="form-control" id="inputEmailAddress" name="username" type="text" placeholder="Email" />
+                </div>
+                <!-- Form Group (password)-->
+                <div class="mb-3">
+                    <label class="small mb-1" for="inputPassword">{% trans 'Логин' %}</label>
+                    <input name="password"  class="form-control" id="inputPassword" type="password" placeholder="Enter password" />
+                </div>
+                <!-- Form Group (remember password checkbox)-->
+                <!-- 
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" id="rememberPasswordCheck" type="checkbox" value="" />
+                        <label class="form-check-label" for="rememberPasswordCheck">Remember password</label>
+                    </div>
+                </div>
+                -->
+                <!-- Form Group (login box)-->
+                <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                    <!-- 
+                    <a class="small" href="auth-password-basic.html">Forgot Password?</a>
+                    -->
+                    <button  class="btn btn-primary">
+                        {% trans 'Войти' %}
+                    </button>
+                   
+                </div>
+            </form>
+        </div>
+        <!-- 
+        <div class="card-footer text-center">
+            <div class="small"><a href="auth-register-basic.html">Need an account? Sign up!</a></div>
+        </div>
+        -->
+    </div>
+</div>
+
