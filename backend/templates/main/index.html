@@ -1,5 +1,6 @@
 {% extends 'main/layout.html' %}
 {% load i18n %} 
+{% get_current_language as LANGUAGE_CODE %}
 {%  block content %}
 
 <header class="card card-waves">
@@ -12,13 +13,14 @@
                 <p class="lead mb-4">{{ about|safe }}</p>
                 
                 <div class="shadow rounded">
+                    {% trans 'Поиск по городу' %}
                     <div class="input-group input-group-joined input-group-joined-xl border-0">
+                        
 
-
-                        <select class="js-data-example-ajax form-control input-group input-group-joined input-group-joined-xl border-0">
-                            <option value="ukraine" selected="selected">
-                                {% trans 'Поиск города' %}
-                            </option>
+                        <select id="search_city" class="js-data-example-ajax form-control input-group input-group-joined input-group-joined-xl border-0"
+                        title="select your day"
+                        >
+                            
                         </select>
                     </div>
                 </div>
@@ -37,12 +39,18 @@
     {% if current_city %}
         {{ current_city }}
     {% endif %}
+
 </h4>
 
 <div class="card shadow mb-4">
     <div class="card-body">
         <div class="row">
-
+            <select id="select_country" class="form-control mb-5" name="city">
+                {% for country in countries %}
+                  
+                  <option {% if current_country == country %} selected {% endif %} value="{{ country.alias }}">{{ country }}</option>
+                {% endfor %}
+            </select>
             
             {% for city in cities %}
             <div class="col-xl-2 col-md-4 mb-3">
@@ -66,8 +74,8 @@
                     {% endfor %}
                 </ul>
             </div>
-            -->
-            <!-- 
+            
+            
             <div class="col-1">
                 <h6 class="m-0 font-weight-bold text-primary">
                     {% trans 'Город' %} 
@@ -151,12 +159,38 @@
 
 $('.js-data-example-ajax').select2({
     ajax: {
-      url: '/v1/search/city',
-      dataType: 'json'
+      url: '/v1/account/search/city',
+      dataType: 'json',
+      processResults: function (data) {
+            console.log(data);
+            return {
+                results: $.map(data, function (item) {
+                    return {
+                        text: item.name,
+                        id: item.alias
+                    }
+                })
+            };
+        }
     }
       // Additional AJAX parameters go here; see the end of this chapter for the full code of this example
     
   });
-</script>
+  
+  $(document).on('change', 'select#search_city', function(e) {
+    // your code
+    location.href = "{{BACKEND_URL}}"+"{{LANGUAGE_CODE}}"+`/v1/account/city/detail/${this.value}`;
+});
+
+$(document).on('change', 'select#select_country', function(e) {
+    // your code http://localhost:7777/uk/filter/ukraine/brovary
+    location.href = "{{BACKEND_URL}}"+"{{LANGUAGE_CODE}}"+`/filter/${this.value}`;
+});
+
+$(document).on('select2:open', () => {
+        document.querySelector('.select2-search__field').focus();
+      });
+  
+  </script>
 
 {% endblock %}

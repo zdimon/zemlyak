@@ -26,12 +26,14 @@ class City(models.Model):
     country_alias = models.CharField(max_length=250, default='', null=True, blank=True)
     country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True)
     is_occupated = models.BooleanField(default=False)
+    search = models.CharField(default='', max_length=250)
 
     def __str__(self) -> str:
         return self.name
 
     def save(self, *args, **kwargs):
         self.alias = slugify(self.name_en)
+        self.search = f'{self.name_ru.lower()} {self.name_en.lower()} {self.name_uk.lower()}'
         super(City, self).save(*args, **kwargs)
 
 

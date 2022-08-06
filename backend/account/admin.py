@@ -36,7 +36,8 @@ class CityAdmin(TranslationAdmin):
         'country',
         'region',
         'is_occupated',
-        'alias'
+        'alias',
+        'search'
     ]
 
 @admin.register(CityGroup)
