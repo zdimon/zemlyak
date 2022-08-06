@@ -23,6 +23,6 @@ def homepage(request,country='ukraine',city=None):
         users = UserProfile.objects.filter(target_city=current_city)
         #citygroups = CityGroup.objects.filter(target=current_city)
     else:
-       users = UserProfile.objects.filter(target_country=current_country)
+       users = UserProfile.objects.all()
 
-    return render(request, 'main/index.html',{"countries": countries, "current_country": current_country, "cities": cities, "current_city": current_city, "about": about})
+    return render(request, 'main/index.html',{"countries": countries, "current_country": current_country, "cities": cities, "current_city": current_city, "about": about, "users": users})

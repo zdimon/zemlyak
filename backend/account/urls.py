@@ -10,8 +10,10 @@ from .views.city_detail import city_detail
 from .views.profile import profile
 from .views.mygroup import mygroup
 from .views.mycontacts import mycontacts
+from .views.search_city import SearchCityView
 
 urlpatterns = [ 
+    path('search/city',SearchCityView.as_view()),
     path('registration',RegistrationView.as_view()),
     path('user_list',UserListView.as_view()),
     path('login',LoginView.as_view()),
