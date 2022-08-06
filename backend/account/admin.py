@@ -14,7 +14,9 @@ class UserProfileAdmin(admin.ModelAdmin):
         'is_online', 
         'target_city',
         'publicname',
-        'source_city']
+        'source_city',
+        'prof',
+        'is_fake']
 
 @admin.register(Country)
 class CountryAdmin(TranslationAdmin):

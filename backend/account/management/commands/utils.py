@@ -1,24 +1,94 @@
-from django.core.management.base import BaseCommand, CommandError
+
+from account.models import UserProfile, City, Country
+import logging
+import random
+logger = logging.getLogger(__name__)
 from backend.settings import FIXTURES_PATH
-import json
-from account.models import City, Country
-import requests
-from backend.settings import API_URL
 import os
-import requests
-from bs4 import BeautifulSoup
-import csv
+import glob
 import json
-import re
-from googletrans import Translator
-import os
+from django.core.files import File  # you need this somewhere
+import urllib
+from usermedia.models import UserMedia
+
+def user_gen(city):
+    try:
+        city = City.objects.get(alias=city)
+        logger.info(f'loading {city}')
+        gender = get_random_gender()
+        logger.info(f'gender {gender}')
+        name = get_random_name(gender)
+        logger.info(f'name {name}')
+        image = get_random_image_path()
+        logger.info(f'image {image}')
+        scity = get_random_uk_city()
+        logger.info(f'from {scity}')
+        prof = get_random_prof()
+        logger.info(f'prof {prof["name_ru"]}')
+        password = '123456t'
+        profile = UserProfile()
+        profile.username = name['name_en']
+        profile.publicname_ru = name['name_ru']
+        profile.publicname_en = name['name_en']
+        profile.publicname_uk = name['name_uk']
+        profile.prof_ru = prof['name_ru']
+        profile.prof_en = prof['name_en']
+        profile.prof_uk = prof['name_uk']
+        profile.set_password(password)
+        profile.target_city = city
+        profile.source_city = scity
+        profile.gender = gender
+        profile.is_staff = True
+        profile.is_superuser = True
+        profile.is_superuser = True
+        profile.is_fake = True
+        profile.save()
+        save_image(profile,image)
+    except Exception as e:
+        print(e)
+        return 'City not found!'
 
 
-translator = Translator()
+def get_random_gender():
+    gender = ['male','female']
+    idx = random.randint(0,1)
+    return gender[idx]
 
-class Command(BaseCommand):
+def get_random_name(gender):
+    path = os.path.join(FIXTURES_PATH,'fake', 'names.json')
+    with open(path, 'r') as f:
+        names = json.loads(f.read())
+    if gender == 'male':
+        rnd = random.randint(0,len(names['man'])-1)
+        return names['man'][rnd]
+    else:
+        rnd = random.randint(0,len(names['woman'])-1)
+        path = os.path.join(FIXTURES_PATH, 'wnames.txt')
+        return names['man'][rnd]
 
-    def handle(self, *args, **options):
-        translator = Translator()
-        t = translator.translate('Перевод', src='ru', dest='uk')
-        print(t.text)
+
+def get_random_image_path():
+    path = os.path.join(FIXTURES_PATH, 'avatar/*')
+    imgs = glob.glob(path)
+    idx = random.randint(0,len(imgs)-1)
+    return imgs[idx]
+
+
+def get_random_uk_city():
+    country = Country.objects.get(alias='ukraine')
+    return City.objects.filter(country=country).order_by('?')[0]
+
+def get_random_prof():
+    path = os.path.join(FIXTURES_PATH,'fake', 'prof.json')
+    with open(path, 'r') as f:
+        profs = json.loads(f.read())
+    idx = random.randint(0,len(profs)-1)
+    return profs[idx]
+
+def save_image(user,img_path):
+    i = UserMedia()
+    i.user = user
+    i.is_approved = True
+    i.is_main = True
+    i.save()
+    i.image.save(user.username,File(open(img_path, 'rb')))

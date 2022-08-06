@@ -85,6 +85,7 @@ class UserProfile(User):
     surename = models.CharField(default='', max_length=250)
     telegram = models.CharField(default='', max_length=250)
     is_online = models.BooleanField(default=False)
+    is_fake = models.BooleanField(default=False)
     account = models.DecimalField(max_digits=20, decimal_places=2, default=Decimal(0.00))
     birthday = models.DateField(null=True, blank=True)
     source_country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True, related_name="source_country")

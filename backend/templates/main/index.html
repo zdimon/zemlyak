@@ -10,18 +10,27 @@
                     {% trans 'Мы поможем вам найти друзей в это трудное время!' %}
                 </h1>
                 <p class="lead mb-4">{{ about|safe }}</p>
+                
                 <div class="shadow rounded">
                     <div class="input-group input-group-joined input-group-joined-xl border-0">
-                        <input class="form-control me-0" type="text" placeholder="{% trans 'Найдите город где живете' %}" aria-label="Search" autofocus="">
-                        <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+
+
+                        <select class="js-data-example-ajax form-control input-group input-group-joined input-group-joined-xl border-0">
+                            <option value="ukraine" selected="selected">
+                                {% trans 'Поиск города' %}
+                            </option>
+                        </select>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4"><img class="img-fluid" src="/static/img/cafe_1.jpg"></div>
         </div>
        <br />
+       
     </div>
 </header>
+
+
 
 <h4 class="mb-0 mt-5">
     {% trans 'Поиск' %} {{ current_country }} 
@@ -115,5 +124,20 @@
     </div>
 </div>
 
+
+{% endblock %}
+
+{% block js %}
+<script>
+
+$('.js-data-example-ajax').select2({
+    ajax: {
+      url: 'https://api.github.com/search/repositories',
+      dataType: 'json'
+    }
+      // Additional AJAX parameters go here; see the end of this chapter for the full code of this example
+    
+  });
+</script>
 
 {% endblock %}
