@@ -29,6 +29,7 @@ class CountryAdmin(TranslationAdmin):
 
 @admin.register(City)
 class CityAdmin(TranslationAdmin):
+    list_filter = ['country']
     list_display = [
         'name_ru',
         'name_uk',
