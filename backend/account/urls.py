@@ -11,6 +11,8 @@ from .views.profile import profile
 from .views.mygroup import mygroup
 from .views.mycontacts import mycontacts
 from .views.search_city import SearchCityView
+from .views.signin_only import signin_only
+
 
 urlpatterns = [ 
     path('search/city',SearchCityView.as_view()),
@@ -27,4 +29,5 @@ urlpatterns = [
     path('profile',profile, name="profile"),
     path('mygroup',mygroup, name="mygroup"),
     path('mycontacts',mycontacts, name="mycontacts"),
+    path('signin_only',signin_only, name="login"),
 ]
