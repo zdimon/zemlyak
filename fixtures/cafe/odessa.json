@@ -4,8 +4,8 @@
         "name": "Олимп",
         "link": "https://www.google.com/maps/place/%D0%9A%D0%B0%D1%84%D0%B5+%22%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%22/data=!4m7!3m6!1s0x40c631ca14d44cd9:0xd34622ea9586ba72!8m2!3d46.4748509!4d30.7414369!16s%2Fg%2F11gl1_v4cw!19sChIJ2UzUFMoxxkARcrqGleoiRtM?authuser=0&hl=ru&rclk=1",
         "address_ru": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_uk": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_en": "​ул.Пушкинская, 45, Одесса, 65048",
+        "address_uk": "вул.Пушкинська, 45, Одеса, 65048",
+        "address_en": "​Pushkinskaya st., 45, Odessa, 65048",
         "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
         "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
         "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
@@ -13,9 +13,9 @@
     {
         "name": "Маска Кафе-бар",
         "link": "https://ru.restaurantguru.com/Maska-Odessa",
-        "address_ru": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_uk": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_en": "​ул.Пушкинская, 45, Одесса, 65048",
+        "address_ru": "ул.Успенская, 29, Одесса, 65000",
+        "address_uk": "в​ул.Успенська, 29, Одеса, 65000",
+        "address_en": "​Uspenskaya st., 29, Odessa, 65000",
         "desc_ru":  "ТИП КУХНИ Украинская, Кафе, Здоровая",
         "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
         "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
@@ -23,9 +23,9 @@
     {
         "name": "Pepe Cafe",
         "link": "https://www.tripadvisor.ru/Restaurant_Review-g295368-d16662253-Reviews-Pepe_Cafe-Odessa_Odessa_Oblast.html",
-        "address_ru": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_uk": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_en": "​ул.Пушкинская, 45, Одесса, 65048",
+        "address_ru": "​ул.Канатная, 60, Одеса, 65000",
+        "address_uk": "вул.Канатна, 60, Одеса, 65000",
+        "address_en": "​Kanatna st., 60, Odessa, 65000",
         "desc_ru":  "Кафе, Европейская, Здоровая",
         "desc_en":  "Cafe, European, Healthy",
         "desc_uk":  "Кафе, Європейська, Здорова"
