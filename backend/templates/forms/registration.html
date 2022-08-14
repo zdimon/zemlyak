@@ -11,11 +11,11 @@
 </div>
 <div class="mb-3">
     <label>{% trans 'Имя' %}</label>
-    <input type="text" name="publicname" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
+    <input type="text" name="publicname" class="form-control form-control-user" id="exampleInputEmail">
 </div>
 <div class="mb-3">
     <label>{% trans 'Фамилия' %}</label>
-    <input type="text" name="surename" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
+    <input type="text" name="surename" class="form-control form-control-user" id="exampleInputEmail">
 </div>
 
 <h6 class="mb-3 small text-muted fw-500">
@@ -25,7 +25,7 @@
     {% trans 'Страна' %}    
     <select id="source_country" class="form-control form-control-user" >
         {% for country in countries %}
-            <option value="{{ country.alias }}">{{ country }}</option>
+            <option {% if country.alias == 'ukraine'  %} selected {% endif %} value="{{ country.alias }}">{{ country }}</option>
         {% endfor %}
     </select>
 </div>
@@ -33,7 +33,7 @@
     {% trans 'Город' %}    
     <select id="source_city" name="source_city" class="form-control form-control-user" >
         {% for city in cities %}
-            <option value="{{ city.alias }}">
+            <option  value="{{ city.alias }}">
                 {{ city }}
             </option>
         {% endfor %}
@@ -47,7 +47,7 @@
     {% trans 'Страна' %}    
     <select id="target_country" class="form-control form-control-user" >
         {% for country in countries %}
-            <option value="{{ country.alias }}">{{ country }}</option>
+            <option {% if country.alias == 'ukraine'  %} selected {% endif %} value="{{ country.alias }}">{{ country }}</option>
         {% endfor %}
     </select>
 </div>

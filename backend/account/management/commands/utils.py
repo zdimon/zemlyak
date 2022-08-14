@@ -11,10 +11,11 @@ from django.core.files import File  # you need this somewhere
 import urllib
 from usermedia.models import UserMedia
 
-def user_gen(city):
+def user_gen(city_source,city_target):
     try:
-        city = City.objects.get(alias=city)
-        logger.info(f'loading {city}')
+        citys = City.objects.get(alias=city_source)
+        cityt = City.objects.get(alias=city_target)
+        logger.info(f'loading {citys}')
         gender = get_random_gender()
         logger.info(f'gender {gender}')
         name = get_random_name(gender)
@@ -22,7 +23,7 @@ def user_gen(city):
         image = get_random_image_path()
         logger.info(f'image {image}')
         scity = get_random_uk_city()
-        logger.info(f'from {scity}')
+        logger.info(f'from {citys}')
         prof = get_random_prof()
         logger.info(f'prof {prof["name_ru"]}')
         password = '123456t'
@@ -35,8 +36,8 @@ def user_gen(city):
         profile.prof_en = prof['name_en']
         profile.prof_uk = prof['name_uk']
         profile.set_password(password)
-        profile.target_city = city
-        profile.source_city = scity
+        profile.target_city = cityt
+        profile.source_city = citys           
         profile.gender = gender
         profile.is_staff = True
         profile.is_superuser = True
