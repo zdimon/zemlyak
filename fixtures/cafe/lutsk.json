@@ -1,0 +1,27 @@
+[
+
+    {
+        "name": "Cafe de Vino",
+        "link": "https://cafedevino.com/menju/",
+        "desc_ru":  "ТИП КУХНИ  Европейская, Кафе,  Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
+    },
+    {
+        "name": "Козача Левада",
+        "link": "https://tomato.ua/ua/lutsk/restaurants/kozachalevada",
+        "desc_ru":  "ТИП КУХНИ  Европейская, Кафе,  Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
+    },
+    {
+        "name": "Indigo Shanti-Cafe",
+        "link": "https://www.tripadvisor.ru/Restaurant_Review-g298059-d14024199-Reviews-Indigo_Shanti_Cafe-Uzhhorod_Zakarpattia_Oblast.html",
+        "desc_ru":  "Кафе, Здоровая, Ближневосточная",
+        "desc_en":  "Cafe, Healthy, Middle Eastern",
+        "desc_uk":  "Кафе, Здорова, Близькосхідна"
+    }
+
+]
+
+
