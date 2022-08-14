@@ -10,6 +10,7 @@ import json
 from django.core.files import File  # you need this somewhere
 import urllib
 from usermedia.models import UserMedia
+import random
 
 def user_gen(city_source,city_target):
     try:
@@ -28,7 +29,7 @@ def user_gen(city_source,city_target):
         logger.info(f'prof {prof["name_ru"]}')
         password = '123456t'
         profile = UserProfile()
-        profile.username = name['name_en']
+        profile.username = name['name_en']+random.randint(1,9999)
         profile.publicname_ru = name['name_ru']
         profile.publicname_en = name['name_en']
         profile.publicname_uk = name['name_uk']
