@@ -1,10 +1,45 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
+[
+
+
+
+    {
+        "name": "Avenue",
+        "link": "https://glovoapp.com/ua/uk/uman/avenue-est18-uma/?utm_campaign=maplinks&utm_medium=organic&utm_source=googlemaps",
+        "address_ru": "улица Комарова, 27, Умань, Черкасская область, 20300",
+        "address_uk": " вулиця Комарова, 27, Умань, Черкаська область, 20300",
+        "address_en": "27 Komarova Street, Uman, Cherkasy Region, 20300",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+        
+    },
+
+
+    {
+        "name": "Серж",
+        "link": "https://glovoapp.com/ua/uk/uman/restoran-serj-uma/?utm_campaign=maplinks&utm_medium=organic&utm_source=googlemaps",
+        "address_ru": "улица Европейская, 76А, Умань, Черкасская область, 20300",
+        "address_uk": "вулиця Європейська, 76А, Умань, Черкаська область, 20300",
+        "address_en": "76A European street, Uman, Cherkasy region, 20300",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+        
+    }, 
+
+    {
+        "name": "КОЛЯДА УМАНЬ",
+        "link": "https://cafe-41415.business.site/",
+        "address_ru": "Киевская улица, 5, Умань, Черкасская область, 20300",
+        "address_uk": "Київська вулиця, 5, Умань, Черкаська область, 20300",
         "address_en": "",
         "desc_ru": "",
         "desc_en":  "",
         "desc_uk":  ""
-    }]
+        
+    }
+
+
+
+
+]
