@@ -17,6 +17,6 @@ class CityTranslationOptions(TranslationOptions):
 translator.register(City, CityTranslationOptions)
 
 class CafeTranslationOptions(TranslationOptions):
-    fields = ('desc',)
+    fields = ('desc','address')
 
 translator.register(Cafe, CafeTranslationOptions)

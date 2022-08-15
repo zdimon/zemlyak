@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "",
         "link": "",
         "address_ru": "",
@@ -7,4 +8,26 @@
         "desc_ru": "",
         "desc_en":  "",
         "desc_uk":  ""
-    }]
+    },
+    {
+        "name": "",
+        "link": "",
+        "address_ru": "",
+        "address_uk": "",
+        "address_en": "",
+        "desc_ru": "",
+        "desc_en":  "",
+        "desc_uk":  ""
+    },
+    {
+        "name": "",
+        "link": "",
+        "address_ru": "",
+        "address_uk": "",
+        "address_en": "",
+        "desc_ru": "",
+        "desc_en":  "",
+        "desc_uk":  ""
+    }
+
+]

@@ -1,10 +1,33 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    {
+        "name": "Ватра",
+        "link": "https://ru.restaurantguru.com/Vatra-Yavoriv",
+        "address_ru": "Яворов, Львовская область, 81000",
+        "address_uk": "Яворів, Львівська область, 81000",
+        "address_en": "Yavoriv, ​​Lviv region, 81000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Дикий Захід",
+        "link": "https://www.facebook.com/wildzaxid/",
+        "address_ru": "улица Т.Шевченко, 6а, Яворов, Львовская область, 81000",
+        "address_uk": "вулиця Т.Шевченка, 6а, Яворів, Львівська область, 81000",
+        "address_en": "T. Shevchenko Street, 6a, Yavoriv, ​​Lviv region, 81000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Цукерня",
+        "link": "https://ua.gorodwiki.ru/lvov/cukernya-282430-otzyvy",
+        "address_ru": "площадь Рынок, 3, Яворов, Львовская область, 81000",
+        "address_uk": "площа Ринок, 3, Яворів, Львівська область, 81000",
+        "address_en": "Rynok square, 3, Yavoriv, ​​Lviv region, 81000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]

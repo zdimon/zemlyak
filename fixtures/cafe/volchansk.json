@@ -1,10 +1,33 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    {
+        "name": "KOMORA",
+        "link": "https://adresglob.ru/komora",
+        "address_ru": "улица Тараса Шевченко, 2, Волочиск, Хмельницкая область, 31200",
+        "address_uk": " вулиця Тараса Шевченка, 2, Волочиськ, Хмельницька область, 31200",
+        "address_en": "Tarasa Shevchenko Street, 2, Volochysk, Khmelnytskyi Region, 31200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Дон Кіхот",
+        "link": "https://ua.polomap.com/%D0%B2%D0%BE%D0%BB%D0%BE%D1%87%D0%B8%D1%81%D1%8C%D0%BA/1485",
+        "address_ru": "Уральских Танкистов, 32, Волочиск, Хмельницкая область, 31200",
+        "address_uk": "вул.Уральських Танкістів, 32, Волочиськ, Хмельницька область, 31200",
+        "address_en": "32 Uralsky Tankist st., Volochysk, Khmelnytskyi region, 31200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Ресторан Версаль",
+        "link": "https://www.instagram.com/restaurant.versal/",
+        "address_ru": "улица Фридриховская, 5а, Волочиск, Хмельницкая область, 31202",
+        "address_uk": "вулиця Фридрихівська, 5а, Волочиськ, Хмельницька область, 31202",
+        "address_en": "5a Fridrichivska street, Volochysk, Khmelnytskyi region, 31202",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]

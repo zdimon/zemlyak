@@ -16,4 +16,5 @@ class GetCityView(generics.ListAPIView):
     '''
     serializer_class = CitySerializer
     filterset_class = CityFilter
-    queryset = City.objects.all().order_by('-id')
+    queryset = City.objects.all().order_by('name_ru')
+    pagination_class = None

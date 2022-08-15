@@ -52,6 +52,7 @@ class Cafe(models.Model):
     image = models.ImageField(upload_to='cafe')
     alias = models.CharField(max_length=250)
     city = models.ForeignKey(City, on_delete=models.SET_NULL, null=True, blank=True)
+    address = models.TextField(default='')
     
         
     def __str__(self) -> str:

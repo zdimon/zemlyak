@@ -1,10 +1,33 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    {
+        "name": "Добре кафе",
+        "link": "https://ru.restaurantguru.com/Kafe-Dobre-kafe-Svitlovodsk",
+        "address_ru": "Светловодск, Кировоградская область, 27500",
+        "address_uk": "Світловодськ, Кіровоградська область, 27500",
+        "address_en": "Svitlovodsk, Kirovohrad Region, 27500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Ласкава",
+        "link": "https://www.facebook.com/laskava2008",
+        "address_ru": "улица Героев Украины, 76, Светловодск, Кировоградская область, 27500",
+        "address_uk": "вулиця Героїв України, 76, Світловодськ, Кіровоградська область, 27500",
+        "address_en": "Heroiv Ukrainy street, 76, Svitlovodsk, Kirovohrad region, 27500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Coffee Time Svitlovodsk",
+        "link": "https://www.facebook.com/coffeetime.svitlovodsk/",
+        "address_ru": "улица Героев Украины, 57, Светловодск, Кировоградская область, 27500",
+        "address_uk": "вулиця Героїв України, 57, Світловодськ, Кіровоградська область, 27500",
+        "address_en": "Heroiv Ukrainy street, 57, Svitlovodsk, Kirovohrad region, 27500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]

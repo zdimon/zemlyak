@@ -1,10 +1,33 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    {
+        "name": "Тепло",
+        "link": "https://drive.google.com/file/d/1KEsrTih1qGaaaph2mwXAY0r4rbIlWeHr/view",
+        "address_ru": "166, проспект Соборный, Запорожье, Запорожская область, 69061",
+        "address_uk": "166, проспект Соборний, Запоріжжя, Запорізька область, 69061",
+        "address_en": "166, Soborny avenue, Zaporizhia, Zaporizhia region, 69061",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Фієста",
+        "link": "http://limonsol.com.ua/menu/fiesta/index.html",
+        "address_ru": "бульвар Шевченко, 4, Запорожье, Запорожская область, 69000",
+        "address_uk": "бульвар Шевченка, 4, Запоріжжя, Запорізька область, 69000",
+        "address_en": "Shevchenko Boulevard, 4, Zaporizhia, Zaporizhia region, 69000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Амбар",
+        "link": "https://ambar.net.ua/dostavka-edy/",
+        "address_ru": "улица Александровская, 88, Запорожье, Запорожская область, 69002",
+        "address_uk": "вулиця Олександрівська, 88, Запоріжжя, Запорізька область, 69002",
+        "address_en": "Oleksandrivska Street, 88, Zaporizhzhia, Zaporizhzhia Region, 69002",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]

@@ -5,7 +5,8 @@ PATH = '/media/zdimon/d04b3bc3-5060-4287-83eb-acecaca9c587/zemlyak/fixtures/cafe
 import json
 from os.path import exists
 
-tpl =  '''[{
+tpl =  '''[
+    {
         "name": "",
         "link": "",
         "address_ru": "",
@@ -14,7 +15,29 @@ tpl =  '''[{
         "desc_ru": "",
         "desc_en":  "",
         "desc_uk":  ""
-    }]'''
+    },
+    {
+        "name": "",
+        "link": "",
+        "address_ru": "",
+        "address_uk": "",
+        "address_en": "",
+        "desc_ru": "",
+        "desc_en":  "",
+        "desc_uk":  ""
+    },
+    {
+        "name": "",
+        "link": "",
+        "address_ru": "",
+        "address_uk": "",
+        "address_en": "",
+        "desc_ru": "",
+        "desc_en":  "",
+        "desc_uk":  ""
+    }
+
+]'''
 
 
 class Command(BaseCommand):

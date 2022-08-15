@@ -1,10 +1,33 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    {
+        "name": "Полісянка",
+        "link": "https://polisyanka.com.ua/",
+        "address_ru": "1-й Сенный переулок, 4, Житомир, Житомирская область, 10000",
+        "address_uk": "1-й Сінний провулок, 4, Житомир, Житомирська область, 10000",
+        "address_en": " 1-y Sinnyi lane, Zhytomyr, Zhytomyr region, 10000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Пан Марципан",
+        "link": "http://marcipanzt.com.ua/",
+        "address_ru": "улица Большая Бердичевская, 55, Житомир, Житомирская",
+        "address_uk": " вулиця Велика Бердичівська, 55, Житомир, Житомирська",
+        "address_en": "55 Velyka Berdychivska Street, Zhytomyr, Zhytomyrska",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Нептун",
+        "link": "https://cafe-neptun.business.site/",
+        "address_ru": "улица Бориса Тена, 142, Житомир, Житомирская область, 10001",
+        "address_uk": "вулиця Бориса Тена, 142, Житомир, Житомирська область, 10001",
+        "address_en": "142 Borysa Ten Street, Zhytomyr, Zhytomyr region, 10001",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]

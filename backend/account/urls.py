@@ -12,6 +12,8 @@ from .views.mygroup import mygroup
 from .views.mycontacts import mycontacts
 from .views.search_city import SearchCityView
 from .views.signin_only import signin_only
+from .views.signin import signin
+from .views.meeteng_save import meeteng_save
 
 
 urlpatterns = [ 
@@ -29,5 +31,6 @@ urlpatterns = [
     path('profile',profile, name="profile"),
     path('mygroup',mygroup, name="mygroup"),
     path('mycontacts',mycontacts, name="mycontacts"),
-    path('signin_only',signin_only, name="login"),
+    path('signin',signin, name="login"),
+    path('meeting/save',meeteng_save, name="meeteng-save"),
 ]

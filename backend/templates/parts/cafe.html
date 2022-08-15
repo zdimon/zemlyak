@@ -1,0 +1,51 @@
+{% load i18n %} 
+<div class="card card-icon lift lift-sm mb-4">
+    <div class="row g-0">
+        <div class="col-auto card-icon-aside bg-primary">
+
+        </div>
+        <div class="col">
+            <div class="card-body py-4">
+                <h5 class="card-title text-primary mb-2">{{ cafe.name }}</h5>
+                <p class="card-text mb-1">{{ cafe.desc }}</p>
+                <div class="small text-muted">{{ cafe.address }}</div>
+                <a class="btn btn-success mt-1" data-bs-toggle="modal" data-bs-target="#meetModal{{ cafe.id }}">
+                    {% trans 'Назначить встречу' %}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="meetModal{{ cafe.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form action="{% url 'meeteng-save' %}" method="POST">
+            {% csrf_token %}
+            <input type="text" name="cafe" value="{{ cafe.id }}" />
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    {% trans 'Хотите встретить земляков?' %}
+                </h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="{% trans 'Закрыть' %}"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-body">{% trans 'Кафе' %}: {{ cafe.name }}</p>
+                <p class="text-body">{% trans 'Город' %}: {{ cafe.city }}</p>
+                <p>
+                    {% trans 'Укажите в произвольной форме когда вы планируете быть в кафе и как вас узнать.' %}
+                </p>
+                <p class="text-dark">
+                    {% trans 'Мы отправим всем вашим землякам сообщение.' %}
+                </p>
+                <p>
+                    
+                    <textarea name="desc" class="form-control"></textarea>
+
+                </p>
+            </div>
+            <div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">{% trans 'Закрыть' %}</button><button class="btn btn-primary" type="submit">{% trans 'Сохранить' %}</button></div>
+        </div>
+    </form>
+    </div>
+</div>

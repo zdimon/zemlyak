@@ -11,7 +11,7 @@ from backend.settings import API_URL
 def signin(request):
     countries = Country.objects.all()
     def_country = Country.objects.get(alias='ukraine')
-    cities = City.objects.filter(country=def_country)
+    cities = City.objects.filter(country=def_country).order_by('name_ru')
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']

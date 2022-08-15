@@ -1,10 +1,37 @@
-[{
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    }]
+[
+    
+    {
+        "name": "Теремок",
+        "link": "https://teremokdelivery.com/",
+        "address_ru": "улица Келецкая, 100, Винница, Винницкая область, 21000",
+        "address_uk": " вулиця Келецька, 100, Вінниця, Вінницька область, 21000",
+        "address_en": "Keletska street, 100, Vinnytsia, Vinnytsia region, 21000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+
+        {
+   
+        "name": "Мандрівник",
+        "link": "https://mandrivnik.vn.ua/menulist",
+        "address_ru": "улица Сергея Зулинского, 46В, Винница, Винницкая область, 21000",
+        "address_uk": "вулиця Сергія Зулінського, 46В, Вінниця, Вінницька область, 21000",
+        "address_en": "46B Serhiy Zulinsky Street, Vinnytsia, Vinnytsia Region, 21000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+
+    {
+        "name": "ВІЗ та ВІЗ",
+        "link": "https://glovoapp.com/ua/uk/vinnitsya/viz-ta-viz/?utm_campaign=maplinks&utm_medium=organic&utm_source=googlemaps",
+        "address_ru": "улица Академика Янгеля, 46, Винница, Винницкая область, 2100",
+        "address_uk": " вулиця Академіка Янгеля, 46, Вінниця, Вінницька область, 2100",
+        "address_en": "Akademika Yangelya street, 46, Vinnytsia, Vinnytsia region, 2100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    }
+
+]
