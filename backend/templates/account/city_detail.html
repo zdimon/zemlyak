@@ -4,21 +4,10 @@
 
 
 <div class="container-fluid">
-        <div class="card shadow">
-            <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">
-                    {% trans 'Город' %} {{ city }}
-                </h6>
-            </div>
-            <div class="card-body">
-                
+    <h1 class="m-0 font-weight-bold text-primary mb-2">
+        {% trans 'Город' %} {{ city }}
+    </h1>
 
-                <a  class="btn btn-primary btn-user btn-block">
-                    {% trans 'Присоединиться к группе города ' %} {{ city }}
-                </a>
-
-            </div>
-        </div>
 
         <div class="card shadow">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
@@ -27,22 +16,12 @@
                 </h6>
             </div>
             <div class="card-body">
-
+                <div class="mb-1">
+                    {% trans 'В этом городе мы нашли людей с таких городов:' %}
+                </div>
+                
                 {% for cafe in cafes %}
-                    <a class="card card-icon lift lift-sm mb-4" href="knowledge-base-category.html">
-                        <div class="row g-0">
-                            <div class="col-auto card-icon-aside bg-primary">
-
-                            </div>
-                            <div class="col">
-                                <div class="card-body py-4">
-                                    <h5 class="card-title text-primary mb-2">{{ cafe.name }}</h5>
-                                    <p class="card-text mb-1">{{ cafe.desc }}</p>
-                                    <div class="small text-muted">{{ cafe.address }}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    {% include 'parts/cafe.html' with cafe=cafe %}
                 {% endfor %}
             </div>
         </div>
@@ -76,5 +55,6 @@
 
 
 </div>
+
 
 {% endblock %}
