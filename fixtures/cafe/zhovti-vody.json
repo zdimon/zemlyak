@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Веранда",
+        "link": "https://adresglob.ru/kafe-veranda-3",
+        "address_ru": "улица Казацкой Славы, 11, Желтые Воды, Днепропетровская область, 52200",
+        "address_uk": "вулиця Козацької Слави, 11, Жовті Води, Дніпропетровська область, 52200",
+        "address_en": "Kozatska Slava street, 11, Zhovti Vody, Dnipropetrovsk region, 52200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Атмосфера",
+        "link": "http://people.dp.ua/press/art-kafe-atmosfera-zheltye-vody",
+        "address_ru": "бульвар Свободы, 37а, Желтые Воды, Днепропетровская область, 52200",
+        "address_uk": "бульвар Свободи, 37а, Жовті Води, Дніпропетровська область, 52200",
+        "address_en": "Svobody Boulevard, 37a, Zhovti Vody, Dnipropetrovsk region, 52200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Marichka kafe",
+        "link": "https://ru.restaurantguru.com/Kafe-Marichka-Zhovti-Vody",
+        "address_ru": "улица Ивана Франко, 3, Желтые Воды, Днепропетровская область, 52210",
+        "address_uk": "вулиця Івана Франка, 3, Жовті Води, Дніпропетровська область, 52210",
+        "address_en": "Ivana Franka Street, 3, Zhovti Vody, Dnipropetrovsk Region, 52210",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
