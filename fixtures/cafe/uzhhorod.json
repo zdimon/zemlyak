@@ -1,4 +1,16 @@
-[{
+[
+    {
+        "name": "Eat Me! Cafe",
+        "link": "https://www.facebook.com/eatmecafe.uzh/menu/",
+        "address_ru": "улица Волошина.22.Ужгород.Закарпатская область. 88000",
+        "address_uk": "вулиця Волошина, 22, Ужгород, Закарпатська область, 88000",
+        "address_en": "Voloshina street, 22, Uzhgorod, Zakarpattia region, 88000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+
+    {
         "name": "",
         "link": "",
         "address_ru": "",
@@ -7,4 +19,15 @@
         "desc_ru": "",
         "desc_en":  "",
         "desc_uk":  ""
-    }]
+    }
+    {
+        "name": "",
+        "link": "",
+        "address_ru": "",
+        "address_uk": "",
+        "address_en": "",
+        "desc_ru": "",
+        "desc_en":  "",
+        "desc_uk":  ""
+    }
+]
