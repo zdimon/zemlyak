@@ -1,31 +1,31 @@
 [
 
     {
-        "name": "Олимп",
-        "link": "https://www.google.com/maps/place/%D0%9A%D0%B0%D1%84%D0%B5+%22%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%22/data=!4m7!3m6!1s0x40c631ca14d44cd9:0xd34622ea9586ba72!8m2!3d46.4748509!4d30.7414369!16s%2Fg%2F11gl1_v4cw!19sChIJ2UzUFMoxxkARcrqGleoiRtM?authuser=0&hl=ru&rclk=1",
-        "address_ru": "​ул.Пушкинская, 45, Одесса, 65048",
-        "address_uk": "вул.Пушкинська, 45, Одеса, 65048",
-        "address_en": "​Pushkinskaya st., 45, Odessa, 65048",
-        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
-        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
-        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+        "name": "Три Бобри",
+        "link": "https://www.google.com/maps/place/%D0%A2%D1%80%D0%B8+%D0%91%D0%BE%D0%B1%D1%80%D0%B8/@48.4626881,35.0505576,17z/data=!3m1!4b1!4m5!3m4!1s0x40dbe2dc57f9fc15:0x5321ce0561821ac0!8m2!3d48.4627201!4d35.0505967?authuser=0&hl=uk",
+        "address_ru": "проспект Дмитрия Яворницкого, 42, Днепр, 49000",
+        "address_uk": "проспект Дмитра Яворницького, 42, Дніпро, 49000",
+        "address_en": "​42 Dmitry Yavornitsky Avenue, Dnipro, 49000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "Маска Кафе-бар",
-        "link": "https://ru.restaurantguru.com/Maska-Odessa",
-        "address_ru": "ул.Успенская, 29, Одесса, 65000",
-        "address_uk": "в​ул.Успенська, 29, Одеса, 65000",
-        "address_en": "​Uspenskaya st., 29, Odessa, 65000",
-        "desc_ru":  "ТИП КУХНИ Украинская, Кафе, Здоровая",
-        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
-        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+        "name": "Дісконт",
+        "link": "https://www.google.com/maps/place/%D0%94%D1%96%D1%81%D0%BA%D0%BE%D0%BD%D1%82/data=!4m7!3m6!1s0x40dbe2e327bd419f:0xa9696fccd30f76f9!8m2!3d48.4651308!4d35.0281042!16s%2Fg%2F1v9gsz_k!19sChIJn0G9J-Pi20AR-XYP08xvaak?authuser=0&hl=uk&rclk=1",
+        "address_ru": "проспект Пушкина, 25/27, Дніепр, 49000",
+        "address_uk": "проспект Пушкіна, 25/27, Дніпро, 49000",
+        "address_en": "Pushkin Avenue, 25/27, Dniepr, 49000",
+        "desc_ru":  "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "Pepe Cafe",
-        "link": "https://www.tripadvisor.ru/Restaurant_Review-g295368-d16662253-Reviews-Pepe_Cafe-Odessa_Odessa_Oblast.html",
-        "address_ru": "​ул.Канатная, 60, Одеса, 65000",
-        "address_uk": "вул.Канатна, 60, Одеса, 65000",
-        "address_en": "​Kanatna st., 60, Odessa, 65000",
+        "name": "Holy Bun",
+        "link": "https://www.google.com/maps/place/Holy+Bun/data=!4m7!3m6!1s0x40dbe2e709431685:0x8d23293f3eee13fb!8m2!3d48.4647485!4d35.0437736!16s%2Fg%2F11gdkpq6q3!19sChIJhRZDCefi20AR-xPuPj8pI40?authuser=0&hl=uk&rclk=1",
+        "address_ru": "улица Короленко, 1, Днепр, 49000",
+        "address_uk": "вулиця Короленка, 1, Дніпро, 49000",
+        "address_en": "Korolenko street, 1, Dnipro, 49000",
         "desc_ru":  "Кафе, Европейская, Здоровая",
         "desc_en":  "Cafe, European, Healthy",
         "desc_uk":  "Кафе, Європейська, Здорова"
