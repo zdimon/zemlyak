@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Lampa Щоденне Кафе",
+        "link": "https://lampa-restaurant.business.site/",
+        "address_ru": "улица Грушевского, 1, Тернополь, Тернопольская область, 46001",
+        "address_uk": " вулиця Грушевського, 1, Тернопіль, Тернопільська область, 46001",
+        "address_en": "1 Hrushevsky Street, Ternopil, Ternopil region, 46001",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Файне місто Тернопіль",
+        "link": "https://fainemisto.com/menyu-zakladu-pab-fayne-misto/",
+        "address_ru": "бульвар Тараса Шевченко, 23, Тернополь, Тернопольская область, 46002",
+        "address_uk": "бульвар Тараса Шевченка, 23, Тернопіль, Тернопільська область, 46002",
+        "address_en": "Taras Shevchenko Boulevard, 23, Ternopil, Ternopil region, 46002",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Барбареско",
+        "link": "https://docs.google.com/forms/d/1ppfu1qkmywx6uHcVMvZz6A5efBlLUJSKuY6qlKEYC1Q/viewform?edit_requested=true",
+        "address_ru": "улица Князя Острожского, 14, Тернополь, Тернопольская область, 46002",
+        "address_uk": "вулиця Князя Острозького, 14, Тернопіль, Тернопільська область, 46002",
+        "address_en": "14 Knyaz Ostrozkogo street, Ternopil, Ternopil region, 46002",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
