@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Роща",
+        "link": "https://ru.restaurantguru.com/Kafe-Rosha-Novohrad-Volynskyi",
+        "address_ru": "улица Леваневского, 25/147, Новоград-Волынский, Житомирская область, 11702",
+        "address_uk": "вулиця Леваневського, 25/147, Новоград-Волинський, Житомирська область, 11702",
+        "address_en": "25/147 Levanevsky Street, Novograd-Volynskyi, Zhytomyr region, 11702",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Шедевр",
+        "link": "https://uaotzyv.com/zhytomyr/shedevr-100195",
+        "address_ru": "улица Шевченко, 1, Новоград-Волынский, Житомирская область, 11702",
+        "address_uk": "вулиця Шевченка, 1, Новоград-Волинський, Житомирська область, 11702",
+        "address_en": "Shevchenka Street, 1, Novohrad-Volynskyi, Zhytomyr Region, 11702",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "ресторан Венеція",
+        "link": "https://uaotzyv.com/zhytomyr/restoran-veneciya-257537",
+        "address_ru": "улица Шевченко, 71, Новоград-Волынский, Житомирская область, 11702",
+        "address_uk": " вулиця Шевченка, 71, Новоград-Волинський, Житомирська область, 11702",
+        "address_en": "Shevchenka Street, 71, Novohrad-Volynskyi, Zhytomyr region, 11702",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
