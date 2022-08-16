@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Coffee Club 41",
+        "link": "https://ru.restaurantguru.com/Coffee-Club-41-Oleksandriya",
+        "address_ru": "Красноармейская улица, 41, Александрия, Кировоградская область, 28000",
+        "address_uk": "Червоноармійська вулиця, 41, Олександрія, Кіровоградська область, 28000",
+        "address_en": "Chervonoarmiiska Street, 41, Oleksandria, Kirovohrad Oblast, 28000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Ітака",
+        "link": "https://ru.restaurantguru.com/Kafe-Itaka-Oleksandriya",
+        "address_ru": "улица Карла Либкнехта, 27, Александрия, Кировоградская область, 28001",
+        "address_uk": "вулиця Карла Лібкнехта, 27, Олександрія, Кіровоградська область, 28001",
+        "address_en": "Karla Libknekhta Street, 27, Oleksandria, Kirovohrad Region, 28001",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Колиба",
+        "link": "https://ru.restaurantguru.com/Koliba-Oleksandriya",
+        "address_ru": "улица 6-го Декабря, 87а, Александрия, Кировоградская область, 28000",
+        "address_uk": "вулиця 6-го Грудня, 87а, Олександрія, Кіровоградська область, 28000",
+        "address_en": "87a 6th Grudnya Street, Oleksandria, Kirovohrad region, 28000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
