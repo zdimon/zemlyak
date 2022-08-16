@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Melrose",
+        "link": "https://ru.restaurantguru.com/Dzhonatan-Pavlohrad",
+        "address_ru": "улица Шевченко, 128, Павлоград, Днепропетровская область, 51400",
+        "address_uk": "вулиця Шевченка, 128, Павлоград, Дніпропетровська область, 51400",
+        "address_en": "Shevchenka Street, 128, Pavlograd, Dnipropetrovsk Region, 51400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Парадіз",
+        "link": "https://www.facebook.com/paradiserestaurantpvl/",
+        "address_ru": "улица Шевченко, 112, Павлоград, Днепропетровская область, 51400",
+        "address_uk": "вулиця Шевченка, 112, Павлоград, Дніпропетровська область, 51400",
+        "address_en": "Shevchenka Street, 112, Pavlograd, Dnipropetrovsk Region, 51400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "GRYSHKO HOUSE",
+        "link": "https://ru.restaurantguru.com/Gryshko-House-Pavlohrad",
+        "address_ru": "улица Центральная, 42, Павлоград, Днепропетровская область, 51400",
+        "address_uk": "вулиця Центральна, 42, Павлоград, Дніпропетровська область, 51400",
+        "address_en": "42 Tsentralna street, Pavlograd, Dnipropetrovsk region, 51400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
