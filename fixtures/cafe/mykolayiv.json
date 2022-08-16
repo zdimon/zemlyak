@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "ZIZU boulangerie",
+        "link": "https://www.facebook.com/ZIZUBoulangerie/",
+        "address_ru": "улица Декабристов, 38/1, Николаев, Николаевская область, 54000",
+        "address_uk": "вулиця Декабристів, 38/1, Миколаїв, Миколаївська область, 54000",
+        "address_en": "38/1 Dekabristiv street, Mykolaiv, Mykolaiv region, 54000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кав'ярня-музей Філіжанка",
+        "link": "https://filizhanka.choiceqr.com/",
+        "address_ru": "улица Декабристов, 15, Николаев, Николаевская область, 54000",
+        "address_uk": " вулиця Декабристів, 15, Миколаїв, Миколаївська область, 54000",
+        "address_en": "15 Dekabristiv street, Mykolaiv, Mykolaiv region, 54000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Атмосфера",
+        "link": "http://www.atmosphera.mk.ua/menu/",
+        "address_ru": "проспект Центральный, 98, Николаев, Николаевская область,",
+        "address_uk": " проспект Центральний, 98, Миколаїв, Миколаївська область,",
+        "address_en": "Tsentralniy avenue, 98, Mykolaiv, Mykolaiv region,",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
