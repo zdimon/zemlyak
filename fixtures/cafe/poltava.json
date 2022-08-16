@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "13 кордон",
+        "link": "https://poltava.mixfood.ua/ua/-kordon",
+        "address_ru": "улица Сергея Сапиго, 1, Полтава, Полтавская область, 36000",
+        "address_uk": "вулиця Сергія Сапіго, 1, Полтава, Полтавська область, 36000",
+        "address_en": "Serhiia Sapigo Street, 1, Poltava, Poltava region, 36000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Криниця",
+        "link": "https://www.krinicya.com.ua/",
+        "address_ru": "улица Европейская, 160, Полтава, Полтавская область, 36000",
+        "address_uk": "вулиця Європейська, 160, Полтава, Полтавська область, 36000",
+        "address_en": "160 European street, Poltava, Poltava region, 36000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "BULVAR",
+        "link": "https://bulvar.makro.rest/?lang=uk",
+        "address_ru": "бульвар Боровиковского, 4, Полтава, Полтавская область, 36000",
+        "address_uk": "бульвар Боровиковського, 4, Полтава, Полтавська область, 36000",
+        "address_en": "Borovykovsky boulevard, 4, Poltava, Poltava region, 36000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
