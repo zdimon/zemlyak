@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Пікнічок",
+        "link": "https://ru.restaurantguru.com/Piknichok-Nikopol",
+        "address_ru": "улица Патриотов Украины, 128, Никополь, Днепропетровская область",
+        "address_uk": "вулиця Патріотів України, 128, Нікополь, Дніпропетровська область",
+        "address_en": "Patriotiv Ukrainy street, 128, Nikopol, Dnipropetrovsk region",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Дежавю",
+        "link": "https://ru.restaurantguru.com/Dezhavyu-Nikopol",
+        "address_ru": "проспект Трубников, 91, Никополь, Днепропетровская область, 53200",
+        "address_uk": "проспект Трубників, 91, Нікополь, Дніпропетровська область, 53200",
+        "address_en": "91 Trubnikiv avenue, Nikopol, Dnipropetrovsk region, 53200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Клуб Малина",
+        "link": "http://360-nikopol.net/malina/",
+        "address_ru": "улица Электрометаллургов, 1б, Никополь, Днепропетровская область, 53200",
+        "address_uk": "вулиця Електрометалургів, 1б, Нікополь, Дніпропетровська область, 53200",
+        "address_en": "1b Elektrometalurgiv street, Nikopol, Dnipropetrovsk region, 53200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
