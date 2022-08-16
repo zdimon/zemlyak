@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Trattoria",
+        "link": "https://ru.restaurantguru.com/Trattoria-Shostka",
+        "address_ru": "улица Мира, 8А, Шостка, Сумская область, 41100",
+        "address_uk": "вулиця Миру, 8А, Шостка, Сумська область, 41100",
+        "address_en": "Myru street, 8A, Shostka, Sumy region, 41100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Еліз",
+        "link": "https://ru.restaurantguru.com/Kafe-Eliz-Shostka",
+        "address_ru": "41100, Шостка, Сумская область",
+        "address_uk": "41100, Шостка, Сумська область",
+        "address_en": "41100, Shostka, Sumy region",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Монтана",
+        "link": "https://ru.restaurantguru.com/Montana-Shostka",
+        "address_ru": "улица Свободы, 45, Шостка, Сумская область, 41100",
+        "address_uk": "вулиця Свободи, 45, Шостка, Сумська область, 41100",
+        "address_en": "45 Svobody Street, Shostka, Sumy Region, 41100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
