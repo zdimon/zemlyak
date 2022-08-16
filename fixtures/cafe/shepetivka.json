@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "У веселого",
+        "link": "https://shepetivka.com.ua/pages/1009-uveselogo.html",
+        "address_ru": "улица Парковая, 5, Шепетовка, Хмельницкая область, 30401",
+        "address_uk": "вулиця Паркова, 5, Шепетівка, Хмельницька область, 30401",
+        "address_en": "Parkova street, 5, Shepetivka, Khmelnytskyi region, 30401",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Околиця",
+        "link": "https://www.facebook.com/okolica.restaurant/",
+        "address_ru": "Староконстантиновское шоссе, 42, Шепетовка, Хмельницкая",
+        "address_uk": "Старокостянтинівське шосе, 42, Шепетівка, Хмельницька",
+        "address_en": "Starokostyantynivske highway, 42, Shepetivka, Khmelnytska",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "RAFINAD",
+        "link": "https://www.instagram.com/rafinad.cafe/",
+        "address_ru": "улица Героев Чернобыля, 2А, Шепетовка, Хмельницкая область, 30400",
+        "address_uk": "вулиця Героїв Чорнобиля, 2А, Шепетівка, Хмельницька область, 30400",
+        "address_en": "Heroiv Chornobyla street, 2A, Shepetivka, Khmelnytskyi region, 30400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
