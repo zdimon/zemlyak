@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Прилуки",
+        "link": "https://ru.restaurantguru.com/cafe-Pryluky-t6",
+        "address_ru": "Гвардейская улица, 98, Прилуки, Черниговская область, 17500",
+        "address_uk": "Гвардійська вулиця, 98, Прилуки, Чернігівська область, 17500",
+        "address_en": "98 Gvardiyska street, Pryluky, Chernihiv region, 17500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе ZAVOD",
+        "link": "https://ru.restaurantguru.com/Kafe-ZAVOD-Pryluky",
+        "address_ru": "улица Казачья, 1, Прилуки, Черниговская область, 17500",
+        "address_uk": " вулиця Козача, 1, Прилуки, Чернігівська область, 17500",
+        "address_en": "Kozacha street, 1, Pryluky, Chernihiv region, 17500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе BiZone",
+        "link": "https://chernihivregion.travel/places/kafe-bizone",
+        "address_ru": "Земская улица, 14а, Прилуки, Черниговская область, 17500",
+        "address_uk": "Земська вулиця, 14а, Прилуки, Чернігівська область, 17500",
+        "address_en": "Zemska street, 14a, Pryluky, Chernihiv region, 17500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
