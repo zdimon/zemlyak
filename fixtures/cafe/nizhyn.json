@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Соло",
+        "link": "https://solo.in.ua/",
+        "address_ru": "площадь Гоголя, 2-я, Нежин, Черниговская область, 16600",
+        "address_uk": "площа Гоголя, 2-а, Ніжин, Чернігівська область, 16600",
+        "address_en": "Gogol square, 2-a, Nizhyn, Chernihiv region, 16600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Marinad cafe",
+        "link": "https://www.marinad-cafe.com.ua/main",
+        "address_ru": "улица Шевченко, 4а, Нежин, Черниговская область, 16600",
+        "address_uk": "вулиця Шевченка, 4а, Ніжин, Чернігівська область, 16600",
+        "address_en": "Shevchenka Street, 4a, Nizhyn, Chernihiv region, 16600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Ресторан Veranda",
+        "link": "https://uaotzyv.com/chernihiv/restoran-veranda-194868",
+        "address_ru": "ТЦ Нежин Сити, улица Батюка, 9, Нежин, Черниговская область, 16600",
+        "address_uk": "ТЦ Нежин Сити, вулиця Батюка, 9, Ніжин, Чернігівська область, 16600",
+        "address_en": "Nizhyn City shopping center, Batyuka street, 9, Nizhyn, Chernihiv region, 16600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
