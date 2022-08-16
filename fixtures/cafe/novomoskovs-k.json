@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Каспій",
+        "link": "https://www.facebook.com/elcinkaspi/",
+        "address_ru": "улица Монастырская, 27, Новомосковск, Днепропетровская область, 51200",
+        "address_uk": "вулиця Монастирська, 27, Новомосковськ, Дніпропетровська область, 51200",
+        "address_en": "Monastirska street, 27, Novomoskovsk, Dnipropetrovsk region, 51200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Веселий жук",
+        "link": "https://ru.restaurantguru.com/Vesely-Zhuk-Novomoskovsk-Dnipropetrovsk-Oblast",
+        "address_ru": "улица Паланочная, 22, Новомосковск, Днепропетровская область, 51200",
+        "address_uk": "вулиця Паланочна, 22, Новомосковськ, Дніпропетровська область, 51200",
+        "address_en": "Palanochna street, 22, Novomoskovsk, Dnipropetrovsk region, 51200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Квадрат",
+        "link": "https://ru.restaurantguru.com/Kafe-Kvadrat-Novomoskovsk-Dnipropetrovsk-Oblast",
+        "address_ru": "улица Большая Ковалевка, 10, Новомосковск, Днепропетровская область, 51200",
+        "address_uk": "вулиця Велика Ковалівка, 10, Новомосковськ, Дніпропетровська область, 51200",
+        "address_en": "10 Velika Kovalivka Street, Novomoskovsk, Dnipropetrovsk Region, 51200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
