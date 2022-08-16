@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Базилік Нововолинськ",
+        "link": "https://basilic.ua/cafe-basilic-novovolynsk",
+        "address_ru": "бульвар Шевченко, 38 А, Нововолынск, Волынская область, 45400",
+        "address_uk": "бульвар Шевченка, 38 А, Нововолинськ, Волинська область, 45400",
+        "address_en": "Shevchenko Boulevard, 38 A, Novovolynsk, Volyn region, 45400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "NOVIKCAFE",
+        "link": "https://www.facebook.com/novikcafe/",
+        "address_ru": "бульвар Шевченко, 24, Нововолынск, Волынская область, 45400",
+        "address_uk": "бульвар Шевченка, 24, Нововолинськ, Волинська область, 45400",
+        "address_en": "Shevchenko Boulevard, 24, Novovolynsk, Volyn region, 45400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Вернісаж",
+        "link": "https://novovolynsk.eotua.com/object/kafe-vernisazh/",
+        "address_ru": "улица Пирогова, 3, Нововолынск, Волынская область, 45400",
+        "address_uk": " вулиця Пирогова, 3, Нововолинськ, Волинська область, 45400",
+        "address_en": "3 Pyrogova street, Novovolynsk, Volyn region, 45400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
