@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Черешенька",
+        "link": "https://2pos.in.ua/74708/1696",
+        "address_ru": "улиця Михайла Грушевського, Стрый, Львовская область, 82401",
+        "address_uk": "вулиця Михайла Грушевського, Стрий, Львівська область, 82401",
+        "address_en": "Mykhailo Hrushevskyi street, Stryi, Lviv region, 82401",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Опера",
+        "link": "https://www.instagram.com/restaurant.opera/",
+        "address_ru": "улица Тараса Шевченко, 105 а, Стрый, Львовская область, 82400",
+        "address_uk": "вулиця Тараса Шевченка, 105 а, Стрий, Львівська область, 82400",
+        "address_en": "Tarasa Shevchenko street, 105 a, Stryi, Lviv region, 82400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Крокус",
+        "link": "https://ru.restaurantguru.com/Kafe-Krokus-Stryi",
+        "address_ru": "улица Симона Петлюры, 2, Стрый, Львовская область, 82400",
+        "address_uk": "вулиця Симона Петлюри, 2, Стрий, Львівська область, 82400",
+        "address_en": "2 Simona Petliury Street, Stryi, Lviv Region, 82400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]

@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Чехов",
+        "link": "https://drive.google.com/drive/folders/1QPq59v1VNxr243V94QdlgZ0MDYMw6J5J",
+        "address_ru": "улица Казацкий Вал, 2/2, Сумы, Сумская область, 40000",
+        "address_uk": "вулиця Козацький Вал, 2/2, Суми, Сумська область, 40000",
+        "address_en": "Kozatskyi Val street, 2/2, Sumy, Sumy region, 40000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Медуниця",
+        "link": "https://www.facebook.com/profile.php?id=100022812045023",
+        "address_ru": "улица Римского-Корсакова, 5, Сумы, Сумская область, 40000",
+        "address_uk": "вулиця Римського-Корсакова, 5, Суми, Сумська область, 40000",
+        "address_en": "Rymskoho-Korsakova street, 5, Sumy, Sumy region, 40000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Be Happy",
+        "link": "https://drive.google.com/drive/folders/1Gngs8tGMKZknf0t6TRauWfoVY0c-GPTf",
+        "address_ru": "6, улица Герасима Кондратьева, Сумы, Сумская область, 40000",
+        "address_uk": " 6, вулиця Герасима Кондратьєва, Суми, Сумська область, 40000",
+        "address_en": "6, Gerasima Kondratieva Street, Sumy, Sumy Region, 40000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
