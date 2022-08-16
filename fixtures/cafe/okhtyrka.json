@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Мапачино",
+        "link": "https://ru.restaurantguru.com/mapachino-Okhtyrka",
+        "address_ru": "ул. Независимости, 24, Ахтырка, Сумская область, 42701",
+        "address_uk": "вул. Независимости, 24, Охтирка, Сумська область, 42701",
+        "address_en": "St. Nezalezhnosti, 24, Okhtyrka, Sumy region, 42701",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Doppio",
+        "link": "https://doppio-the-cafe.business.site/",
+        "address_ru": "Н12, 1, Ахтырка, Сумская область, 42701",
+        "address_uk": "Н12, 1, Охтирка, Сумська область, 42701",
+        "address_en": "H12, 1, Okhtyrka, Sumy region, 42701",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Fidele",
+        "link": "https://ru.restaurantguru.com/Fidele-Okhtyrka",
+        "address_ru": "улица Независимости, 9, Ахтырка, Сумская область, 42700",
+        "address_uk": "вулиця Незалежності, 9, Охтирка, Сумська область, 42700",
+        "address_en": "Nezalezhnosti street, 9, Okhtyrka, Sumy region, 42700",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
