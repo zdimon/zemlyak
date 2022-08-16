@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "One Love Rivne",
+        "link": "https://ru.restaurantguru.com/One-Love-Rivne-Rivne",
+        "address_ru": "улица Пересопницкая, 76, Ровно, Ровенская область, 33000",
+        "address_uk": " вулиця Пересопницька, 76, Рівне, Рівненська область, 33000",
+        "address_en": "76 Peresopnytska street, Rivne, Rivne region, 33000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
+    },
+    {
+        "name": "Varvara",
+        "link": "https://varvararest.choiceqr.com/",
+        "address_ru": "улица Пересопницкая, 76, Ровно, Ровенская область, 33000",
+        "address_uk": "вулиця Київська, 100, Рівне, Рівненська область, 33000",
+        "address_en": "76 Peresopnytska street, Rivne, Rivne region, 33000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
         "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
-    },
-    {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "link": "https://www.instagram.com/nevdoma.cafe/",
+        "address_ru": "улица Симона Петлюры, 8, Ровно, Ровенская область, 33017",
+        "address_uk": "вулиця Симона Петлюри, 8, Рівне, Рівненська область, 33017",
+        "address_en": "8 Simona Petliury Street, Rivne, Rivne region, 33017",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
