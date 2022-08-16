@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе OKNA",
+        "link": "https://ru.restaurantguru.com/OKNA-Smila",
+        "address_ru": "улица Независимости, 45, Смела, Черкасская область, 20700",
+        "address_uk": "вулиця Незалежності, 45, Сміла, Черкаська область, 20700",
+        "address_en": "45 Nezalezhnosti Street, Smila, Cherkasy Region, 20700",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе САЛЮТ",
+        "link": "https://ru.restaurantguru.com/Kafe-SALYuT-Smila",
+        "address_ru": "ул. Независимости, 104А, Смела, Черкасская область, 20702",
+        "address_uk": "вул. Незалежності, 104А, Сміла, Черкаська область, 20702",
+        "address_en": "St. Nezalezhnosti, 104A, Smila, Cherkasy region, 20702",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "SINTAR",
+        "link": "https://ru.restaurantguru.com/SINTAR-Smila",
+        "address_ru": "улица Богдана Хмельницкого, 23, Смела, Черкасская область, 20700",
+        "address_uk": "вулиця Богдана Хмельницького, 23, Сміла, Черкаська область, 20700",
+        "address_en": "Bohdana Khmelnytskogo Street, 23, Smila, Cherkasy Region, 20700",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
