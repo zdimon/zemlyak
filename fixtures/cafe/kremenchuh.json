@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Івушки",
+        "link": "https://restoran-ivushki.polo-city.com/",
+        "address_ru": "улица Героев Украины, 14, Кременчуг, Полтавская область, 39600",
+        "address_uk": "вулиця Героїв України, 14, Кременчук, Полтавська область, 39600",
+        "address_en": "Heroiv Ukrainy street, 14, Kremenchuk, Poltava region, 39600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Екватор",
+        "link": "https://laznya.ua/users/ua/anketa.php?sauna_id=1026",
+        "address_ru": "улица Александра Билаша, 5, Кременчуг, Полтавская область, 39600",
+        "address_uk": "вулиця Олександра Білаша, 5, Кременчук, Полтавська область, 39600",
+        "address_en": "5 Oleksandra Bilash Street, Kremenchuk, Poltava Region, 39600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Крамбл",
+        "link": "https://www.facebook.com/sergapis",
+        "address_ru": "Соборная улица, 40/2, Кременчуг, Полтавская область, 39600",
+        "address_uk": "Соборна вулиця, 40/2, Кременчук, Полтавська область, 39600",
+        "address_en": "Soborna street, 40/2, Kremenchuk, Poltava region, 39600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
