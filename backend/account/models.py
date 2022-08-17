@@ -45,6 +45,8 @@ class CityGroup(models.Model):
     def __str__(self) -> str:
         return '%s -> %s' % (self.source, self.target)
 
+
+
 class Cafe(models.Model):
     name = models.CharField(default='', max_length=250)
     link = models.CharField(default='', max_length=250)
@@ -170,3 +172,8 @@ class UserProfile(User):
         return mark_safe('<img src="%s" />' % self.get_main_photo_url)  
 
 
+class Meeting(models.Model):
+    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    cafe = models.ForeignKey(Cafe, on_delete=models.CASCADE)
+    message = models.TextField(default='')
+    created_at = models.DateTimeField(auto_now_add=True)

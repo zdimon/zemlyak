@@ -1,8 +1,14 @@
 from django.contrib import admin
-from account.models import UserProfile, City, Country, CityGroup, Cafe, Cafe2Group
+from account.models import UserProfile, City, Country, CityGroup, Cafe, Cafe2Group, Meeting
 from django.utils.html import mark_safe
 from modeltranslation.admin import TranslationAdmin, TabbedTranslationAdmin
 from modeltranslation.admin import TranslationTabularInline
+
+
+@admin.register(Meeting)
+class MeetingAdmin(admin.ModelAdmin):
+   
+    list_display = ['user', 'cafe']
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):

@@ -1,7 +1,8 @@
+from typing import Counter
 from django.core.management.base import BaseCommand, CommandError
 from backend.settings import FIXTURES_PATH
 import json
-from account.models import Cafe, City
+from account.models import Cafe, City, Country
 import requests
 from backend.settings import API_URL
 import os
@@ -13,10 +14,24 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         print('Loading cafe')
-        user_file = os.path.join(FIXTURES_PATH,'cafe', 'uzhorod.json')
-        #print(user_file)
-        with open(user_file,'r') as f:
-            jdata = json.loads(f.read())
+        country = Country.objects.get(alias='ukraine')
+        cities = City.objects.filter(country=country) 
+        for city in cities:
+            user_file = os.path.join(FIXTURES_PATH,'cafe', f'{city.alias}.json')
+            print(user_file)
+            try:
+                with open(user_file,'r') as f:
+                    jdata = json.loads(f.read())
+                cafe = Cafe()
+                cafe.name = 'Alex'
+                cafe.link = 'Odessa'
+                cafe.desc_ru = 
+                cafe.desc_en =
+                cafe.desc_uk =
+                cafe.save()
+
+            except Exception as e:
+                print(e)
         
 
         # cafe = Cafe()
@@ -28,13 +43,13 @@ class Command(BaseCommand):
         
         # cafe.save()       
     #print(jdata[1]["name"])
-        jdata = [{"name": "cafe1"}, {"name": "cafe2"}]
-        for cafe in jdata:
-            print(cafe["name"])
-            print(cafe["link"])
-            cafe = Cafe()
-            cafe.name = cafe["name"]
-            cafe.save()
+        # jdata = [{"name": "cafe1"}, {"name": "cafe2"}]
+        # for cafe in jdata:
+        #     print(cafe["name"])
+        #     print(cafe["link"])
+        #     cafe = Cafe()
+        #     cafe.name = cafe["name"]
+        #     cafe.save()
 
        
 
