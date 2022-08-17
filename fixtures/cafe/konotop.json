@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
+        "name": "Кафе Ночка",
+        "link": "https://ru.restaurantguru.com/Kafe-Nochka-Konotop",
+        "address_ru": "проспект Мира, 93, Конотоп, Сумская область, 41615",
+        "address_uk": "проспект Миру, 93, Конотоп, Сумська область, 41615",
+        "address_en": "Myru Avenue, 93, Konotop, Sumy Region, 41615",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
         "desc_uk":  ""
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Орхидея",
+        "link": "https://ru.restaurantguru.com/Orkhideya-Konotop",
+        "address_ru": "площадь Конотопских Дивизий, Конотоп, Сумская область, 41600",
+        "address_uk": "площа Конотопських Дивізій, Конотоп, Сумська область, 41600",
+        "address_en": "Konotop Divisions Square, Konotop, Sumy Oblast, 41600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Нептун",
+        "link": "https://ru.restaurantguru.com/Neptun-Konotop",
+        "address_ru": "проспект Мира, 25, Конотоп, Сумская область, 41600",
+        "address_uk": "проспект Миру, 25, Конотоп, Сумська область, 41600",
+        "address_en": "Myru Avenue, 25, Konotop, Sumy Region, 41600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
