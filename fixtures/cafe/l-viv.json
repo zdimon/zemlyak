@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Druzi Cafe",
+        "link": "https://druzilviv.choiceqr.com/",
+        "address_ru": "вулиця Краківська, 5, Львов, Львовская область, 79008",
+        "address_uk": "вулиця Краківська, 5, Львів, Львівська область, 79008",
+        "address_en": "Krakivska street, 5, Lviv, Lviv region, 79008",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Гасова лямпа",
+        "link": "https://www.facebook.com/gasovalampa",
+        "address_ru": "улица Армянская, 20, Львов, Львовская область, 79000",
+        "address_uk": "вулиця Вірменська, 20, Львів, Львівська область, 79000",
+        "address_en": "20 Virmenska street, Lviv, Lviv region, 79000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Львівські Пляцки",
+        "link": "https://www.pliacky.lviv.ua/",
+        "address_ru": "Каменица Алембековская, площадь Рынок, 13, Львов, Львовская область, 79000",
+        "address_uk": "Кам'яниця Алембеківська, площа Ринок, 13, Львів, Львівська область, 79000",
+        "address_en": "Kamianytsia Alembekivska, Rynok square, 13, Lviv, Lviv region, 79000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
