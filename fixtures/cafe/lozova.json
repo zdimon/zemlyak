@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Едем",
+        "link": "https://ru.restaurantguru.com/Kafe-Edem-Lozova",
+        "address_ru": "улица Парижской Коммуны, Лозовая, Харьковская область, 64602",
+        "address_uk": "вулиця Паризької Комуни, Лозова, Харківська область, 64602",
+        "address_en": "Parizka Komuna street, Lozova, Kharkiv region, 64602",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Норма",
+        "link": "https://uaotzyv.com/kharkiv/kafe-norma-84287",
+        "address_ru": "Лозовая, Харьковская область, 64600",
+        "address_uk": "Лозова, Харківська область, 64600",
+        "address_en": "Lozova, Kharkiv region, 64600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Рио",
+        "link": "https://ru.restaurantguru.com/Rio-Lozova",
+        "address_ru": "Лозовая, Харьковская область, 64600",
+        "address_uk": "Лозова, Харківська область, 64600",
+        "address_en": "Lozova, Kharkiv region, 64600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
