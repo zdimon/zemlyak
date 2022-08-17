@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Мрія",
+        "link": "https://uaotzyv.com/poltava/mriya-148719",
+        "address_ru": "улица Монастырская, 8-20, Лубны, Полтавская область, 37501",
+        "address_uk": "вулиця Монастирська, 8-20, Лубни, Полтавська область, 37501",
+        "address_en": "8-20 Monastirska street, Lubny, Poltava region, 37501",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Південний",
+        "link": "https://uaotzyv.com/poltava/kafe-pivdenniy-222148",
+        "address_ru": "улица Драгоманова, Лубны, Полтавская область, 37503",
+        "address_uk": " вулиця Драгоманова, Лубни, Полтавська область, 37503",
+        "address_en": "Drahomanova street, Lubny, Poltava region, 37503",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Казка",
+        "link": "https://www.facebook.com/kazkakafe",
+        "address_ru": "проспект Владимирский, 27/49, Лубны, Полтавская область, 37500",
+        "address_uk": "проспект Володимирський, 27/49, Лубни, Полтавська область, 37500",
+        "address_en": "Volodymyrsky prospect, 27/49, Lubny, Poltava region, 37500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
