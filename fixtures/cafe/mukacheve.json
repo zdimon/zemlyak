@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "B&B espresso bar",
+        "link": "https://www.instagram.com/bandb_espressobar/?hl=uk",
+        "address_ru": "улица Мира, 11а, Мукачево, Закарпатская область, 89611",
+        "address_uk": "вулиця Миру, 11а, Мукачево, Закарпатська область, 89611",
+        "address_en": "Myru street, 11a, Mukachevo, Zakarpattia region, 89611",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Гавань",
+        "link": "https://www.instagram.com/havan.restaurant/?hl=uk",
+        "address_ru": "улица Победы, 2Е, Мукачево, Закарпатская область, 89600",
+        "address_uk": "вулиця Перемоги, 2Е, Мукачево, Закарпатська область, 89600",
+        "address_en": "Peremogy Street, 2E, Mukachevo, Zakarpattia Oblast, 89600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Бондаренко",
+        "link": "http://bondcondim.com.ua/",
+        "address_ru": "улица Пушкина, 14, Мукачево, Закарпатская область, 89600",
+        "address_uk": "вулиця Пушкіна, 14, Мукачево, Закарпатська область, 89600",
+        "address_en": "Pushkin Street, 14, Mukachevo, Zakarpattia Oblast, 89600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
