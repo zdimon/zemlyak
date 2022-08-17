@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Феста Коломия",
+        "link": "https://www.facebook.com/festa.kolomyya",
+        "address_ru": "г.Коломыя Буль.Л. Украинки 6/3 м, Коломыя, Ивано-Франковская область, 78200",
+        "address_uk": "м.Коломия Буль.Л. Українки 6/3 м, Коломия, Івано-Франківська область, 78200",
+        "address_en": "m. Kolomiya Bul.L. Ukrainky 6/3 m, Kolomyia, Ivano-Frankivsk region, 78200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Звенислава-Чіпок",
+        "link": "https://www.facebook.com/zvenyslava/",
+        "address_ru": "улица Симона Петлюры, 78, Коломыя, Ивано-Франковская область, 78200",
+        "address_uk": "вулиця Симона Петлюри, 78, Коломия, Івано-Франківська область, 78200",
+        "address_en": "78 Simona Petliury Street, Kolomyia, Ivano-Frankivsk Region, 78200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Дует",
+        "link": "https://www.facebook.com/%D0%9A%D0%B0%D1%84%D0%B5-%D0%94%D1%83%D0%B5%D1%82-400072407483975/",
+        "address_ru": "улица Переяславская, 4, Коломыя, Ивано-Франковская область, 78200",
+        "address_uk": " вулиця Переяславска, 4, Коломия, Івано-Франківська область, 78200",
+        "address_en": "4 Pereyaslavska street, Kolomyia, Ivano-Frankivsk region, 78200",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
