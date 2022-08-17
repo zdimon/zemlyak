@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "ЛяТюШо",
+        "link": "https://www.lyatyusho.com/",
+        "address_ru": "улица Квитки-Основьяненко, 4/6, Харьков, Харьковская область, 61000",
+        "address_uk": "вулиця Квітки-Основ'яненка, 4/6, Харків, Харківська область, 61000",
+        "address_en": "4/6 Kvitky-Osnovyanenko street, Kharkiv, Kharkiv region, 61000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Шоу-кафе Терра",
+        "link": "https://ru.restaurantguru.com/Terra-Kharkiv",
+        "address_ru": "улица Жон Мироносиц, 13, Харьков, Харьковская область, 61000",
+        "address_uk": "вулиця Жон Мироносиць, 13, Харків, Харківська область, 61000",
+        "address_en": "Zhon Myronosits Street, 13, Kharkiv, Kharkiv region, 61000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Cats and coffee | Киці та кава",
+        "link": "https://ru.restaurantguru.com/Cats-and-Coffee-Kharkiv-3",
+        "address_ru": "улица Пушкинская, 74, Харьков, Харьковская область, 61000",
+        "address_uk": "вулиця Пушкінська, 74, Харків, Харківська область, 61000",
+        "address_en": "Pushkinska Street, 74, Kharkiv, Kharkiv region, 61000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
