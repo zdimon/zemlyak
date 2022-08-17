@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кекс",
+        "link": "https://www.facebook.com/kexbar",
+        "address_ru": "Кропивницкий, Кировоградская область, 25000",
+        "address_uk": "Кропивницький, Кіровоградська область, 25000",
+        "address_en": "Kropyvnytskyi, Kirovohrad region, 25000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Шинок",
+        "link": "http://shynok.com/",
+        "address_ru": "улица Юрия Коваленко, 5a, Кропивницкий, Кировоградская область, 25000",
+        "address_uk": " вулиця Юрія Коваленка, 5a, Кропивницький, Кіровоградська область, 25000",
+        "address_en": "Yuryia Kovalenka street, 5a, Kropyvnytskyi, Kirovohrad region, 25000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Смачні Традиції",
+        "link": "https://www.facebook.com/ST.krop/",
+        "address_ru": "улица Юрия Коваленко, 5a, Кропивницкий, Кировоградская область, 25000",
+        "address_uk": "вулиця Шевченка, 15, Кропивницький, Кіровоградська область, 25006",
+        "address_en": "Yuryia Kovalenka street, 5a, Kropyvnytskyi, Kirovohrad region, 25000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
