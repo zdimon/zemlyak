@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Хармс",
+        "link": "https://expz.menu/92701f9f-bce9-4fa1-8847-f59431360d76",
+        "address_ru": "Дом учёных, улица Владимирская, 45а, Киев, 01001",
+        "address_uk": "Будинок вчених, вулиця Володимирська, 45а, Київ, 01001",
+        "address_en": "House of Scientists, Volodymyrska Street, 45a, Kyiv, 01001",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кофе Мастери",
+        "link": "https://www.facebook.com/coffeemasterykyiv/",
+        "address_ru": "улица Михайловская, 17/2, Киев, 01001",
+        "address_uk": "вулиця Михайлівська, 17/2, Київ, 01001",
+        "address_en": "Mykhailivska Street, 17/2, Kyiv, 01001",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Косатка",
+        "link": "https://www.kosatkacafe.com/menu-ukr",
+        "address_ru": "улица Большая Житомирская, 25/2, Киев, 02000",
+        "address_uk": " вулиця Велика Житомирська, 25/2, Київ, 02000",
+        "address_en": "25/2 Velyka Zhytomyrska Street, Kyiv, 02000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
