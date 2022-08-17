@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Омега",
+        "link": "https://cafe-30833.business.site/",
+        "address_ru": "улица Сагайдачного, Ковель, Волынская область, 45004",
+        "address_uk": " вулиця Сагайдачного, Ковель, Волинська область, 45004",
+        "address_en": "Sagaidachnogo street, Kovel, Volyn region, 45004",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Водограй",
+        "link": "https://kovel.media/places/vodograj/",
+        "address_ru": "Ковель, Волынская область, 45000",
+        "address_uk": "Ковель, Волинська область, 45000",
+        "address_en": "Kovel, Volyn region, 45000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Градус",
+        "link": "https://www.instagram.com/gradus_pub/",
+        "address_ru": "улица Театральная, 11, Ковель, Волынская область, 45000",
+        "address_uk": "вулиця Театральна, 11, Ковель, Волинська область, 45000",
+        "address_en": "11 Teatralna street, Kovel, Volyn region, 45000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
