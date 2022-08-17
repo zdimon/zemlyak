@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Cult Coffee",
+        "link": "https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&q=%D0%BA%D0%B0%D1%84%D0%B5+%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%B8&rflfq=1&num=10&sa=X&ved=2ahUKEwjzy8Lwpc75AhVlk4sKHRmDA-gQjGp6BAgREAE&biw=1920&bih=921&dpr=1#rlfi=hd:;si:15237747336158793748,l,ChfQutCw0YTQtSDRh9C10YDQutCw0YHQuEje9NfpiquAgAhaHRAAGAEiF9C60LDRhNC1INGH0LXRgNC60LDRgdC4kgEMZXNwcmVzc29fYmFymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ4YUhSeGJVcFJFQUWqARsKCS9tLzAyMGZiMhABKgwiCNC60LDRhNC1KCI,y,Qd43ZbJ1EBs;mv:[[49.4632082,32.0743654],[49.4391201,32.0243636]]",
+        "address_ru": "бульвар Шевченко, 195, Черкассы, 18000",
+        "address_uk": "бульвар Шевченка, 195, Черкаси, 18000",
+        "address_en": "Shevchenko boulevard, 195, Cherkasy, 18000",
+        "desc_ru": "Кафе, Европейская, Здоровая",
+        "desc_en":  "Cafe, European, Healthy",
+        "desc_uk":  "Кафе, Європейська, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Caffeine",
+        "link": "https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&q=%D0%BA%D0%B0%D1%84%D0%B5+%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%B8&rflfq=1&num=10&sa=X&ved=2ahUKEwiKzO3cqM75AhWE-yoKHbf3CFMQjGp6BAgREAE&biw=1920&bih=921&dpr=1#rlfi=hd:;si:1926650198513718511,l,ChfQutCw0YTQtSDRh9C10YDQutCw0YHQuEjm1erFq66AgAhaHxAAGAAYASIX0LrQsNGE0LUg0YfQtdGA0LrQsNGB0LiSAQRjYWZlqgEbCgkvbS8wMjBmYjIQASoMIgjQutCw0YTQtSgi,y,u0FSy1ySPu8;mv:[[49.4632082,32.0743654],[49.4391201,32.0243636]]",
+        "address_ru": "бульвар Шевченко, 83, Черкассы, 18000",
+        "address_uk": "бульвар Шевченка, 83, Черкаси, 18000",
+        "address_en": "Shevchenko boulevard, 83, Cherkasy, 18000",
+        "desc_ru": "Кафе, Европейская, Здоровая",
+        "desc_en":  "Cafe, European, Healthy",
+        "desc_uk":  "Кафе, Європейська, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "The Room",
+        "link": "https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&q=%D0%BA%D0%B0%D1%84%D0%B5+%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%B8&rflfq=1&num=10&sa=X&ved=2ahUKEwiKzO3cqM75AhWE-yoKHbf3CFMQjGp6BAgREAE&biw=1920&bih=921&dpr=1#rlfi=hd:;si:14258491856047483487,l,ChfQutCw0YTQtSDRh9C10YDQutCw0YHQuEjygcrhmK2AgAhaHxAAGAAYASIX0LrQsNGE0LUg0YfQtdGA0LrQsNGB0LiSAQtjb2ZmZWVfc2hvcKoBGwoJL20vMDIwZmIyEAEqDCII0LrQsNGE0LUoIg,y,1jgjEkGntR4;mv:[[49.4632082,32.0743654],[49.4391201,32.0243636]]",
+        "address_ru": "улица Крещатик, 188, Черкассы, 18000",
+        "address_uk": "вулиця Хрещатик, 188, Черкаси, 18000",
+        "address_en": "Khreshchatyk street, 188, Cherkasy, 18000",
+        "desc_ru": "Кафе, Европейская, Здоровая",
+        "desc_en":  "Cafe, European, Healthy",
+        "desc_uk":  "Кафе, Європейська, Здорова"
     }
 
 ]
