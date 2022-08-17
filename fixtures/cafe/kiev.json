@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Шарлотта",
+        "link": "https://app.menumenu.us/",
+        "address_ru": "улица Тургеневская, 55, Киев, 04050",
+        "address_uk": "вулиця Тургенєвська, 55, Київ, 04050",
+        "address_en": "55 Turgenevska Street, Kyiv, 04050",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Борщ кафе",
+        "link": "https://www.borschcafe.com/menu/",
+        "address_ru": "улица Семена Скляренко, 5Б, Киев, 02000",
+        "address_uk": "вулиця Семена Скляренка, 5Б, Київ, 02000",
+        "address_en": "Semena Sklyarenko Street, 5B, Kyiv, 02000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "La Fabrique",
+        "link": "https://www.facebook.com/kiev.la.fabrique/",
+        "address_ru": "улица Бульварно-Кудрявская, 19, Киев, 02000",
+        "address_uk": "вулиця Бульварно-Кудрявська, 19, Київ, 02000",
+        "address_en": "Bulvarno-Kudryavska Street, 19, Kyiv, 02000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
