@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Монако",
+        "link": "https://ru.restaurantguru.com/Monako-Marhanets",
+        "address_ru": "А, Киевская улица, 182, Марганец, Днепропетровская область, 53400",
+        "address_uk": "А, Київська вулиця, 182, Марганець, Дніпропетровська область, 53400",
+        "address_en": "A, Kyivska street, 182, Marganets, Dnipropetrovsk region, 53400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Старий Лоцман",
+        "link": "https://ru.restaurantguru.com/Marhanets",
+        "address_ru": "Перспективная улица, Марганец, Днепропетровская область, 53400",
+        "address_uk": "Перспективна вулиця, Марганець, Дніпропетровська область, 53400",
+        "address_en": "Perspektivna Street, Marganets, Dnipropetrovsk Region, 53400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Гюнель",
+        "link": "https://ru.restaurantguru.com/Kafe-Gyunel-Marhanets",
+        "address_ru": "Советская улица, Марганец, Днепропетровская область, 53400",
+        "address_uk": "Радянська вулиця, Марганець, Дніпропетровська область, 53400",
+        "address_en": "Soviet Street, Marganets, Dnipropetrovsk Region, 53400",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
