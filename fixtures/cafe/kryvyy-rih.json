@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Етуаль",
+        "link": "https://padam.com.ua/ru/mpadam/pg/2_n/",
+        "address_ru": "улица Виталия Матусевича, 8, Кривой Рог, Днепропетровская область, 50000",
+        "address_uk": "вулиця Віталія Матусевича, 8, Кривий Ріг, Дніпропетровська область, 50000",
+        "address_en": "Vitaliya Matusevicha street, 8, Kryvyi Rih, Dnipropetrovsk region, 50000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "ЛІСОВА ПОЛЯНА КАФЕ",
+        "link": "https://lesnayapolyana.com.ua/index.php/uk/",
+        "address_ru": "Парковая улица, 13А, Кривой Рог, Днепропетровская область, 50000",
+        "address_uk": "Паркова вулиця, 13А, Кривий Ріг, Дніпропетровська область, 50000",
+        "address_en": "Parkova Street, 13A, Kryvyi Rih, Dnipropetrovsk Region, 50000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Cupman espresso bar",
+        "link": "https://www.facebook.com/cupmankr",
+        "address_ru": "улица Николая Зинчевского, 18, Кривой Рог, Днепропетровская область, 50000",
+        "address_uk": "вулиця Миколи Зінчевського, 18, Кривий Ріг, Дніпропетровська область, 50000",
+        "address_en": "Mykola Zinchevsky Street, 18, Kryvyi Rih, Dnipropetrovsk Region, 50000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
