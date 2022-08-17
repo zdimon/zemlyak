@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Narnia",
+        "link": "https://ru.restaurantguru.com/Kafe-bystrogo-pitaniya-Narnia-Korosten",
+        "address_ru": "улица Михаила Грушевского, 34/А, Коростень, Житомирская область, 10501",
+        "address_uk": "вулиця Михайла Грушевського, 34/А, Коростень, Житомирська область, 10501",
+        "address_en": "34/A Mykhailo Hrushevsky Street, Korosten, Zhytomyr region, 10501",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Дерунярня",
+        "link": "https://cafe-korostem.business.site/?m=true",
+        "address_ru": "улица Михаила Грушевского, 5а, Коростень, Житомирская область, 11500",
+        "address_uk": "вулиця Михайла Грушевського, 5a, Коростень, Житомирська область, 11500",
+        "address_en": "Mykhailo Hrushevskyi Street, 5a, Korosten, Zhytomyr region, 11500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Імперія",
+        "link": "https://ua.polomap.com/%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BD%D1%8C/1200",
+        "address_ru": "1506, Коростень, Житомирская область, 11506",
+        "address_uk": "1506, Коростень, Житомирська область, 11506",
+        "address_en": "1506, Korosten, Zhytomyr Region, 11506",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
