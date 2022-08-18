@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Веранда",
+        "link": "https://tomato.ua/ua/belaya-tserkov/restaurants/verandayaroslavamudroho",
+        "address_ru": "ТРЦ Апельсин, улица Ярослава Мудрого, 1, 3 этаж, Белая Церковь, Киевская обл., 09100",
+        "address_uk": " ТРЦ Апельсин, вулиця Ярослава Мудрого, 1, 3 поверх, Біла Церква, Київська обл., 09100",
+        "address_en": "Apelsyn shopping center, Yaroslav Mudryho street, 1, 3rd floor, Bila Tserkva, Kyiv region, 09100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Арт Кафе Квартира 36",
+        "link": "https://tomato.ua/ua/belaya-tserkov/restaurants/kvartyra-36",
+        "address_ru": "Торговая площадь, Белая Церковь, Киевская обл., 09100",
+        "address_uk": "Торгова площа, Біла Церква, Київська обл., 09100",
+        "address_en": "Market square, Bila Tserkva, Kyiv region, 09100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Берегиня",
+        "link": "https://sites.google.com/site/bereginjateremok/kontakti",
+        "address_ru": "улица Семашко, 213, Белая Церковь, Киевская обл., 09100",
+        "address_uk": "вулиця Семашка, 213, Біла Церква, Київська обл., 09100",
+        "address_en": "Semashka Street, 213, Bila Tserkva, Kyiv region, 09100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
