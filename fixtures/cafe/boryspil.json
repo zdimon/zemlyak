@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Борщ",
+        "link": "https://borsch-cafe.com.ua/",
+        "address_ru": "улица Киевский шлях, 2Б, Борисполь, Киевская обл., 08301",
+        "address_uk": "вулиця Київський шлях, 2Б, Бориспіль, Київська обл., 08301",
+        "address_en": "2B Kyivsky Shlyach St., Boryspil, Kyiv region, 08301",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Маріанна",
+        "link": "https://cafemarianna.com/main-delivery/",
+        "address_ru": "б, улица Киевский шлях, 69, Борисполь, Киевская обл., 08300",
+        "address_uk": "б, вулиця Київський шлях, 69, Бориспіль, Київська обл., 08300",
+        "address_en": "b, 69 Kyivsky Shlyach St., Boryspil, Kyiv region, 08300",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Полис",
+        "link": "https://ru.restaurantguru.com/Kafe-Polis-Boryspil",
+        "address_ru": "Нижний Вал, Шевченковский микрорайон, 3а, Борисполь, Киевская обл., 08300",
+        "address_uk": "Нижний Вал, Шевченковский микрорайон, 3а, Бориспіль, Київська обл., 08300",
+        "address_en": "Nizhniy Val, Shevchenkivskyi microdistrict, 3a, Boryspil, Kyiv region, 08300",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
