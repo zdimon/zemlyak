@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Мануфактура",
+        "link": "https://www.facebook.com/ManufacturaIF/?ref=bookmarks",
+        "address_ru": "площадь Мицкевича, 6, Ивано-Франковск, Ивано-Франковская область, 76000",
+        "address_uk": "площа Міцкевича, 6, Івано-Франківськ, Івано-Франківська область, 76000",
+        "address_en": "Mickevycha Square, 6, Ivano-Frankivsk, Ivano-Frankivsk region, 76000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Пасаж Гартенберг",
+        "link": "https://pasage-gartenberg.choiceqr.com/",
+        "address_ru": "улица Независимости, 3, Ивано-Франковск, Ивано-Франковская область, 76000",
+        "address_uk": " вулиця Незалежності, 3, Івано-Франківськ, Івано-Франківська область, 76000",
+        "address_en": "Nezalezhnosti street, 3, Ivano-Frankivsk, Ivano-Frankivsk region, 76000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Фамілія",
+        "link": "https://www.facebook.com/Familiya.if/menu",
+        "address_ru": "улица Независимости, 31, Ивано-Франковск, Ивано-Франковская область, 76000",
+        "address_uk": "вулиця Незалежності, 31, Івано-Франківськ, Івано-Франківська область, 76000",
+        "address_en": "Nezalezhnosti street, 31, Ivano-Frankivsk, Ivano-Frankivsk region, 76000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
