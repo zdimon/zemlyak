@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Предслава",
+        "link": "https://ru.restaurantguru.com/Predslava-Chernihiv",
+        "address_ru": "проспект Победы, 93, Чернигов, Черниговская область, 14000",
+        "address_uk": "проспект Перемоги, 93, Чернігів, Чернігівська область, 14000",
+        "address_en": "Prospekt Peremogy, 93, Chernihiv, Chernihiv region, 14000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Цапа",
+        "link": "https://www.facebook.com/urbanzapa/",
+        "address_ru": "улица Коцюбинского, 53, Чернигов, Черниговская область, 14000",
+        "address_uk": "вулиця Коцюбинського, 53, Чернігів, Чернігівська область, 14000",
+        "address_en": "53 Kotsyubinsky Street, Chernihiv, Chernihiv region, 14000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Fika. Скандинавське кафе.",
+        "link": "https://ru.restaurantguru.com/Fika-Chernihiv",
+        "address_ru": "улица Гетьмана Полуботка, 22-20, Чернигов, Черниговская",
+        "address_uk": "вулиця Гетьмана Полуботка, 22-20, Чернігів, Чернігівська",
+        "address_en": "Hetmana Polubotka street, 22-20, Chernihiv, Chernihivska",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
