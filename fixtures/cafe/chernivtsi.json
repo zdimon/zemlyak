@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Grand Cafe",
+        "link": "https://www.facebook.com/grandcafeczernowitz",
+        "address_ru": "Кафедральная улица, 12, Черновцы, Черновицкая область, 58000",
+        "address_uk": " Кафедральна вулиця, 12, Чернівці, Чернівецька область, 58000",
+        "address_en": "Cathedral Street, 12, Chernivtsi, Chernivtsi region, 58000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Бріг",
+        "link": "https://ru.restaurantguru.com/Brig-Chernivtsi",
+        "address_ru": "улица Полетаева, 8, Черновцы, Черновицкая область, 58000",
+        "address_uk": "вулиця Полєтаєва, 8, Чернівці, Чернівецька область, 58000",
+        "address_en": "Poletaeva street, 8, Chernivtsi, Chernivtsi region, 58000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кав'ярня-музей",
+        "link": "https://karpaty.rocks/region/chernivecka-oblast/chernivci/kavyarnya-muzey-grand-kafe",
+        "address_ru": "улица Кобылянской, 30, Черновцы, Черновицкая область, 58000",
+        "address_uk": "вулиця Кобилянської, 30, Чернівці, Чернівецька область, 58000",
+        "address_en": "Kobylyanska Street, 30, Chernivtsi, Chernivtsi region, 58000",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
