@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Winovnik",
+        "link": "https://www.facebook.com/winovnik/",
+        "address_ru": "проспект Дмитрия Яворницкого, 53А, Днепр, Днепропетровская область, 49000",
+        "address_uk": "проспект Дмитра Яворницького, 53А, Дніпро, Дніпропетровська область, 49000",
+        "address_en": "Dmytro Yavornytskyi Avenue, 53A, Dnipro, Dnipropetrovsk Region, 49000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Три Бобри",
+        "link": "https://ru.foursquare.com/v/%D1%82%D1%80%D0%B8-%D0%B1%D0%BE%D0%B1%D1%80%D0%B8/5440c44a498ef1ca788ae19c",
+        "address_ru": "проспект Дмитрия Яворницкого, 42, Днепр, Днепропетровская область, 49000",
+        "address_uk": "проспект Дмитра Яворницького, 42, Дніпро, Дніпропетровська область, 49000",
+        "address_en": "Dmytro Yavornytskyi Avenue, 42, Dnipro, Dnipropetrovsk Region, 49000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Ван Гог | галерея-кафе |",
+        "link": "https://www.facebook.com/vangoghdp/",
+        "address_ru": "Троицкая площадь, 5а, Днепр, Днепропетровская область, 49000",
+        "address_uk": "Троїцька площа, 5а, Дніпро́, Дніпропетровська область, 49000",
+        "address_en": "Troitska Square, 5a, Dnipro, Dnipropetrovsk Region, 49000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
