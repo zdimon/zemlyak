@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Меланж",
+        "link": "https://ua.polomap.com/%D0%B1%D0%B5%D1%80%D0%B4%D0%B8%D1%87%D1%96%D0%B2/1790",
+        "address_ru": "улица Европейская, 10А, 10A, Бердичев, Житомирская область, 13300",
+        "address_uk": "вулиця Європейська, 10А, 10A, Бердичів, Житомирська область, 13300",
+        "address_en": "10A, 10A, European street, Berdychiv, Zhytomyr region, 13300",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "У Леона.",
+        "link": "https://ua.polomap.com/%D0%B1%D0%B5%D1%80%D0%B4%D0%B8%D1%87%D1%96%D0%B2/5335",
+        "address_ru": "улица Короленко, 39д, Бердичев, Житомирская область, 13309",
+        "address_uk": "вулиця Короленка, 39д, Бердичів, Житомирська область, 13309",
+        "address_en": "Korolenko Street, 39d, Berdychiv, Zhytomyr Region, 13309",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Артур",
+        "link": "https://ru.restaurantguru.com/Artur-Berdychiv",
+        "address_ru": "улица Одесская, 72а, Бердичев, Житомирская область, 13300",
+        "address_uk": "вулиця Одеська, 72а, Бердичів, Житомирська область, 13300",
+        "address_en": "Odeska Street, 72a, Berdychiv, Zhytomyr Region, 13300",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
