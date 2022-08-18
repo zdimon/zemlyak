@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе МАНГАЛ",
+        "link": "https://www.instagram.com/mangal.akkerman/",
+        "address_ru": "ул. Первомайская, 102, Белгород-Днестровский, Одесская область, 67700",
+        "address_uk": "ул. Первомайская, 102, Білгород-Дністровський, Одеська область, 67700",
+        "address_en": "St. Pervomaiskaya, 102, Bilhorod-Dnistrovskyi, Odesa region, 67700",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "кафе МАЕСТРО",
+        "link": "https://tomato.ua/ua/belgorod-dnestrovskiy/restaurants/maestromoskovska",
+        "address_ru": "улица Московская, 13, Белгород-Днестровский, Одесская область, 67701",
+        "address_uk": " вулиця Московська, 13, Білгород-Дністровський, Одеська область, 67701",
+        "address_en": "Moskovska Street, 13, Bilhorod-Dnistrovskyi, Odesa Region, 67701",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Зелений шум",
+        "link": "https://md-ukraine.com/ua/cafe/138_zelenij-sum.html",
+        "address_ru": "ул. Тараса Шевченко, 32А, Белгород-Днестровский, Одесская область, 67701",
+        "address_uk": "вул. Тараса Шевченка, 32А, Білгород-Дністровський, Одеська область, 67701",
+        "address_en": "St. Tarasa Shevchenko, 32A, Bilhorod-Dnistrovskyi, Odesa region, 67701",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]
