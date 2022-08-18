@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Palermo",
+        "link": "https://palermo.if.ua/qr-menu/",
+        "address_ru": "проспект Леси Украинки, 15А, Калуш, Ивано-Франковская область, 77300",
+        "address_uk": "проспект Лесі Українки, 15А, Калуш, Івано-Франківська область, 77300",
+        "address_en": "Lesya Ukrainky avenue, 15A, Kalush, Ivano-Frankivsk region, 77300",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Чайка",
+        "link": "https://www.facebook.com/groups/kalushcity.if.ua/permalink/2217488948323276/",
+        "address_ru": "улица Ивано-Франковская, 62, Калуш, Ивано-Франковская область, 77300",
+        "address_uk": "вулиця Івано-Франківська, 62, Калуш, Івано-Франківська область, 77300",
+        "address_en": "62 Ivano-Frankivska street, Kalush, Ivano-Frankivska region, 77300",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Маріанна",
+        "link": "https://ru.restaurantguru.com/Verona-Kalush",
+        "address_ru": "улица Киевская, 124, Калуш, Ивано-Франковская область, 77300",
+        "address_uk": "вулиця Київська, 124, Калуш, Івано-Франківська область, 77300",
+        "address_en": "Kyivska street, 124, Kalush, Ivano-Frankivsk region, 77300",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
