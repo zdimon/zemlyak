@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Літо",
+        "link": "https://kam.gov.ua/ua/news/pg/140817729487000_p18/",
+        "address_ru": "улица Набережная, 2а, Каменское, Днепропетровская область, 51900",
+        "address_uk": "вулиця Набережна, 2а, Кам’янське, Дніпропетровська область, 51900",
+        "address_en": "Naberezhna street, 2a, Kamianske, Dnipropetrovsk region, 51900",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Ресторан Дача",
+        "link": "https://www.instagram.com/dacha_dndz/",
+        "address_ru": "улица Павловская, 62, Каменское, Днепропетровская область, 51900",
+        "address_uk": "вулиця Павловська, 62, Кам’янське, Дніпропетровська область, 51900",
+        "address_en": "Pavlovska street, 62, Kamianske, Dnipropetrovsk region, 51900",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Burger Zone",
+        "link": "https://uaotzyv.com/dnipropetrovsk/burger-zone-27177",
+        "address_ru": "проспект Свободы, 30г, Каменское, Днепропетровская область, 51900",
+        "address_uk": "проспект Свободи, 30г, Кам’янське, Дніпропетровська область, 51900",
+        "address_en": "30 Svobody Avenue, Kamianske, Dnipropetrovsk Region, 51900",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
