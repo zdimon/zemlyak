@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Knysh",
+        "link": "https://ru.restaurantguru.com/Chervonohrad",
+        "address_ru": "улица Василия Стуса, 25, Червоноград, Львовская область, 80100",
+        "address_uk": "вулиця Василя Стуса, 25, Червоноград, Львівська область, 80100",
+        "address_en": "Vasyl Stusa Street, 25, Chervonograd, Lviv region, 80100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Dream Park Cafe",
+        "link": "https://dreampark.com.ua/",
+        "address_ru": "улица Парковая, 3а, Червоноград, Львовская область, 80100",
+        "address_uk": " вулиця Паркова, 3а, Червоноград, Львівська область, 80100",
+        "address_en": "Parkova street, 3a, Chervonograd, Lviv region, 80100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "BAZA",
+        "link": "https://ru.restaurantguru.com/BAZA-Chervonohrad",
+        "address_ru": "улица Большая Стуса, 14, Червоноград, Львовская область, 80100",
+        "address_uk": "вулиця В.Стуса, 14, Червоноград, Львівська область, 80100",
+        "address_en": "V. Stusa street, 14, Chervonograd, Lviv region, 80100",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]

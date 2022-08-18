@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Кафе Лео Черноморск",
+        "link": "https://www.instagram.com/leo_cafe__chornomorsk/",
+        "address_ru": "улица Парковая, 11В, Черноморск, Одесская область, 68000",
+        "address_uk": "вулиця Паркова, 11В, Чорноморськ, Одеська область, 68000",
+        "address_en": "Parkova Street, 11B, Chornomorsk, Odesa Region, 68000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Papa Cotta",
+        "link": "https://uaotzyv.com/odesa/papa-cotta-135793",
+        "address_ru": "Александрийская улица, 11м, Черноморск, Одесская область, 68000",
+        "address_uk": "Олександрійська вулиця, 11м, Чорноморськ, Одеська область, 68000",
+        "address_en": "Oleksandriyska street, 11m, Chornomorsk, Odesa region, 68000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Сіті - Сімейне Кафе",
+        "link": "https://city-cafe.com.ua/",
+        "address_ru": "улица Пляжная, 1, Черноморск, Одесская область, 68000",
+        "address_uk": "вулиця Пляжна, 1, Чорноморськ, Одеська область, 68000",
+        "address_en": "Plazhna street, 1, Chornomorsk, Odesa region, 68000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]

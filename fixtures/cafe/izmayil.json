@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Гурман",
+        "link": "https://restoran-gurman2.ps.me/",
+        "address_ru": "улица Шевченко, 62, Измаил, Одесская область, 68601",
+        "address_uk": "вулиця Шевченка, 62, Ізмаїл, Одеська область, 68601",
+        "address_en": "Shevchenko Street, 62, Izmail, Odesa Region, 68601",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Фуршет",
+        "link": "https://uaotzyv.com/odesa/furshet-57912",
+        "address_ru": "проспект Суворова, 43, Измаил, Одесская область, 68601",
+        "address_uk": "проспект Суворова, 43, Ізмаїл, Одеська область, 68601",
+        "address_en": "Suvorova avenue, 43, Izmail, Odesa region, 68601",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "У Фонтана",
+        "link": "https://www.facebook.com/ufontanaizmail/",
+        "address_ru": "улица Бендерская, 28, Измаил, Одесская область, 68600",
+        "address_uk": "вулиця Бендерська, 28, Ізмаїл, Одеська область, 68600",
+        "address_en": "28 Benderska Street, Izmail, Odesa Region, 68600",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]

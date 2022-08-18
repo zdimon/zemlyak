@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Оливкове кафе",
+        "link": "https://khmelnytskyi.bestrest.com.ua/ua/info-Kafe-Olyvkove-Olive-Cafe",
+        "address_ru": " проспект Мира, 102, Хмельницкий, Хмельницкая область, 29000 ",
+        "address_uk": "проспект Миру, 102, Хмельницький, Хмельницька область, 29000",
+        "address_en": "Prospekt Myru, 102, Khmelnytskyi, Khmelnytskyi region, 29000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Наомі",
+        "link": "https://naomi.choiceqr.com/",
+        "address_ru": "улица Проскуровская, 40, Хмельницкий, Хмельницкая область, 29000",
+        "address_uk": " вулиця Проскурівська, 40, Хмельницький, Хмельницька область, 29000",
+        "address_en": "Proskurivska street, 40, Khmelnytskyi, Khmelnytskyi region, 29000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "кафе Изюм",
+        "link": "https://www.facebook.com/cafe.izyum",
+        "address_ru": "улица Подольская, 93, Хмельницкий, Хмельницкая область, 29000",
+        "address_uk": "вулиця Подільська, 93, Хмельницький, Хмельницька область, 29000",
+        "address_en": "Podilska street, 93, Khmelnytskyi, Khmelnytskyi region, 29000",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]

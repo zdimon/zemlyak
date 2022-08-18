@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "ОРЕХ",
+        "link": "https://www.facebook.com/Oreh.Brovary/",
+        "address_ru": "ул. Героев Украины, 2, Бровары, Киевская обл., 07400",
+        "address_uk": "вул. Героїв України, 2, Бровари, Київська обл., 07400",
+        "address_en": "St. Heroes of Ukraine, 2, Brovary, Kyiv region, 07400",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "21.3",
+        "link": "https://www.facebook.com/social.cafe.21.3/",
+        "address_ru": "улица Ярослава Мудрого, 2, Бровары, Киевская обл., 07400",
+        "address_uk": " вулиця Ярослава Мудрого, 2, Бровари, Київська обл., 07400",
+        "address_en": "2 Yaroslav Mudroho street, Brovary, Kyiv region, 07400",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Cozy bar",
+        "link": "https://www.instagram.com/ss_cozy_bar/",
+        "address_ru": "улица Олега Оникиенко, 20/2, Бровары, Киевская обл., 07400",
+        "address_uk": "вулиця Олега Онікієнка, 20/2, Бровари, Київська обл., 07400",
+        "address_en": "Oleha Onikienka Street, 20/2, Brovary, Kyiv region, 07400",
+        "desc_ru": "ТИП КУХНИ Европейская, Кафе, Здоровая",
+        "desc_en":  "CUISINE TYPE European, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Європейська, Кафе, Здорова"
     }
 
 ]

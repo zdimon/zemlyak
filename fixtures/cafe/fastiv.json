@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Вернісаж",
+        "link": "https://www.facebook.com/%D0%92%D0%B5%D1%80%D0%BD%D1%96%D1%81%D0%B0%D0%B6-253872321626317/",
+        "address_ru": "улица Соборная, 26, Фастов, Киевская обл., 08500",
+        "address_uk": "вулиця Соборна, 26, Фастів, Київська обл., 08500",
+        "address_en": "26 Soborna Street, Fastiv, Kyiv Region, 08500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Старий Фастів",
+        "link": "https://ru.restaurantguru.com/Starii-Fastiv-Fastiv",
+        "address_ru": "улица Соборная, 10, Фастов, Киевская обл., 08500",
+        "address_uk": "вулиця Соборна, 10, Фастів, Київська обл., 08500",
+        "address_en": "10 Soborna Street, Fastiv, Kyiv region, 08500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Прованс",
+        "link": "https://ru.restaurantguru.com/Kafe-Provans-Fastiv",
+        "address_ru": "улица Полины Осипенко, 18, Фастов, Киевская обл., 08500",
+        "address_uk": "вулиця Поліни Осипенко, 18, Фастів, Київська обл., 08500",
+        "address_en": "Polina Osypenko Street, 18, Fastiv, Kyiv region, 08500",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]

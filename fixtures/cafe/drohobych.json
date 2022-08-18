@@ -1,33 +1,33 @@
 [
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Надія",
+        "link": "https://www.facebook.com/NadiyaDrohobych/",
+        "address_ru": "улица Андрея Шептицкого, Дрогобыч, Львовская область, 82100",
+        "address_uk": "вулиця Андрія Шептицького, Дрогобич, Львівська область, 82100",
+        "address_en": "Andriy Sheptytskogo street, Drohobych, Lviv region, 82100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Osteria Doshka",
+        "link": "https://www.instagram.com/doshkaosteria/",
+        "address_ru": "улица Жупная, 4, Дрогобыч, Львовская область, 82100",
+        "address_uk": "вулиця Жупна, 4, Дрогобич, Львівська область, 82100",
+        "address_en": "4 Zhupna street, Drohobych, Lviv region, 82100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     },
     {
-        "name": "",
-        "link": "",
-        "address_ru": "",
-        "address_uk": "",
-        "address_en": "",
-        "desc_ru": "",
-        "desc_en":  "",
-        "desc_uk":  ""
+        "name": "Арт-клуб 82100",
+        "link": "https://drive.google.com/file/d/1nLwW_3g7uJ18E7SaI9chj-8tW_M5jAVn/view",
+        "address_ru": "площадь Рынок, 23, Дрогобыч, Львовская область, 82100",
+        "address_uk": "площа Ринок, 23, Дрогобич, Львівська область, 82100",
+        "address_en": "Rynok square, 23, Drohobych, Lviv region, 82100",
+        "desc_ru": "ТИП КУХНИ Украинская, Кафе, Здоровая",
+        "desc_en":  "TYPE OF CUISINE Ukrainian, Cafe, Healthy",
+        "desc_uk":  "ТИП КУХНІ Українська, Кафе, Здорова"
     }
 
 ]
